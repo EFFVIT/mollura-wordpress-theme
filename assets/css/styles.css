@@ -438,10 +438,73 @@ iframe:focus-visible {
 .mol-hub-card p:last-of-type { margin-bottom: var(--space-6); }
 .mol-hub-card__cta { margin-top: auto; align-self: flex-start; }
 
+/* ---------- Benefits (service detail pages) ---------- */
+.mol-benefits {
+  background: var(--color-surface-alt);
+}
+.mol-checklist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3) var(--space-6);
+  margin-top: var(--space-6);
+}
+.mol-checklist__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.mol-checklist__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: var(--radius-icon);
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+/* ---------- FAQ (service detail pages) ---------- */
+.mol-faq__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 var(--space-10);
+  margin-top: var(--space-10);
+}
+.mol-faq__item {
+  border-bottom: var(--border-hairline) solid var(--color-border);
+  padding: var(--space-5) 0;
+}
+.mol-faq__item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-body);
+  color: var(--color-fg);
+  list-style: none;
+}
+.mol-faq__item summary::-webkit-details-marker { display: none; }
+.mol-faq__item summary::after {
+  content: "+";
+  flex-shrink: 0;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--color-secondary);
+}
+.mol-faq__item[open] summary::after { content: "\2212"; }
+.mol-faq__item p { margin-top: var(--space-3); }
+
 @media (max-width: 860px) {
   .mol-split { grid-template-columns: 1fr; gap: var(--space-6); }
   .mol-split--reverse .mol-split__media { order: 0; }
   .mol-hub-grid { grid-template-columns: 1fr; }
+  .mol-checklist { grid-template-columns: 1fr; }
+  .mol-faq__grid { grid-template-columns: 1fr; gap: 0; }
 }
 
 /* ---------- Office hours / consultation info bar ---------- */

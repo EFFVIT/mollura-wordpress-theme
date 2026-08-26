@@ -10,6 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'MOLLURA_THEME_VERSION', '1.0.0' );
 
+require get_template_directory() . '/inc/services-data.php';
+
 /**
  * Cache-bust every theme-owned asset off its real file mtime, so an edit here
  * always invalidates cached CSS/JS in the browser without hand-bumping a version
