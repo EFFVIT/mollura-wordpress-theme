@@ -39,7 +39,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 	</section>
 
 	<!-- Procedure details (hub cards) -->
-	<section class="mol-content-section">
+	<section class="mol-content-section mol-content-section--flush-top">
 		<div class="mol-container mol-hub-grid">
 
 			<div class="mol-hub-card">

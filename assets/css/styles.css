@@ -390,7 +390,7 @@ iframe:focus-visible {
   padding-top: var(--space-24);
   padding-bottom: var(--space-24);
 }
-.mol-content-section + .mol-content-section { padding-top: 0; }
+.mol-content-section--flush-top { padding-top: 0; }
 .mol-h3 {
   font-size: var(--text-h3);
   margin-bottom: var(--space-4);
@@ -441,6 +441,12 @@ iframe:focus-visible {
 /* ---------- Benefits (service detail pages) ---------- */
 .mol-benefits {
   background: var(--color-surface-alt);
+}
+.mol-benefits .mol-split__media img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  max-width: 420px;
+  margin: 0 auto;
 }
 .mol-checklist {
   display: grid;
