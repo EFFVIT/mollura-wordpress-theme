@@ -376,6 +376,19 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'scar-repair' => array(
+			'banner_title'      => 'Scar Repair',
+			'banner_image'      => 'services/scar-repair-banner.png',
+			'intro_eyebrow'     => 'Hair Loss Solutions',
+			'intro_heading'     => 'Scar Repair',
+			'intro_image'       => 'services/scar-repair-intro.png',
+			'intro_image_alt'   => 'Illustration of a doctor examining a linear scar on the back of a patient\'s head',
+			'intro_body'        => array(
+				'Hair transplant scar repair is a medical procedure designed to minimize the scar and restore hair growth within areas of visible scarring. Scars may result from prior FUT (strip) procedures, trauma, burns, or previous surgeries. Because scar tissue has altered blood supply and different structural properties compared to healthy scalp skin, graft survival requires careful surgical planning and technique. We use several techniques, including using a Follicular Unit Extraction (FUE) transplant to harvest individual grafts and implant them directly into the scar, strategically placing follicular units to break up the linear or patchy appearance of scar tissue. Adjunctive treatments such as PRP injections are recommended to enhance vascularity and support graft survival.',
+				'Expectations must be realistic when transplanting into scar tissue. While significant cosmetic improvement is often achievable, density may not match native scalp hair due to reduced circulation in the area. For linear FUT scars specifically, options may also include scar revision surgery or trichophytic closure techniques before or in combination with graft placement. When performed by an experienced physician such as Dr. Mollura, scar repair can dramatically reduce visibility and restore confidence.',
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
