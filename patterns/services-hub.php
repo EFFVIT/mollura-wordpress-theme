@@ -38,29 +38,38 @@ $img = get_template_directory_uri() . '/assets/images/';
 		</div>
 	</section>
 
-	<!-- Procedure details -->
+	<!-- Procedure details (hub cards) -->
 	<section class="mol-content-section">
-		<div class="mol-container" style="max-width: 800px;">
+		<div class="mol-container mol-hub-grid">
 
-			<div class="mol-content-block">
-				<h3 class="mol-h3">Follicular Unit Transplantation (FUT)</h3>
+			<div class="mol-hub-card">
+				<span class="mol-icon-circle" aria-hidden="true">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12"/><path d="M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/></svg>
+				</span>
+				<h3>Follicular Unit Transplantation (FUT)</h3>
 				<p>In a Follicular Unit Transplantation (FUT) Dr. Mollura removes a strip of tissue from the donor area. From this he creates follicular units &mdash; tiny grafts of 1, 2, or 3 individual hairs. The grafts are then transplanted via tiny incisions, called recipient sites, to create the new hairline according to the patient&rsquo;s individualized hair restoration plan.</p>
-				<a class="mol-btn mol-btn--outline-dark mol-content-block__cta" href="https://mollurahairtransplant.com/fut-hair-transplant/">Learn More</a>
+				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/fut-hair-transplant/">Learn More</a>
 			</div>
 
-			<div class="mol-content-block">
-				<h3 class="mol-h3">Follicular Unit Extraction (FUE)</h3>
+			<div class="mol-hub-card">
+				<span class="mol-icon-circle" aria-hidden="true">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 2 4 4"/><path d="m17 7 3-3"/><path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5"/><path d="m9 11 4 4"/><path d="m5 19-3 3"/><path d="m14 4 6 6"/></svg>
+				</span>
+				<h3>Follicular Unit Extraction (FUE)</h3>
 				<p>Follicular Unit Extraction (FUE) is an alternative method of extracting donor hair for a follicular unit hair transplant. In an FUE procedure, a tiny incision is made in the skin around each follicular unit, separating it from the surrounding tissue. Each individual unit is then extracted directly from the scalp.</p>
-				<a class="mol-btn mol-btn--outline-dark mol-content-block__cta" href="https://mollurahairtransplant.com/fue-hair-transplant/">Learn More</a>
+				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/fue-hair-transplant/">Learn More</a>
 			</div>
 
-			<div class="mol-content-block">
-				<h3 class="mol-h3">Medical Hair Loss Therapy</h3>
+			<div class="mol-hub-card">
+				<span class="mol-icon-circle" aria-hidden="true">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
+				</span>
+				<h3>Medical Hair Loss Therapy</h3>
 				<p>Today with advances in pharmacology and laser technology there are several options for men and women to maintain and even regrow some hair.</p>
 				<p>Propecia&reg; is a pill, which is only for men, and must be taken daily. It has been FDA approved for the treatment of hair loss and has been shown effective in early hair loss.</p>
 				<p>Rogaine is a FDA approved topical solution that can be used for both men and women.</p>
 				<p>Laser hair therapy is an easy and effective treatment for men and women that can be used at home or our office. It can be used alone or in combined therapy and as an addition to surgery. Women often find laser therapy to be of great benefit and a favorite treatment.</p>
-				<a class="mol-btn mol-btn--outline-dark mol-content-block__cta" href="https://mollurahairtransplant.com/prp-therapy/">Learn More</a>
+				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/prp-therapy/">Learn More</a>
 			</div>
 
 		</div>
