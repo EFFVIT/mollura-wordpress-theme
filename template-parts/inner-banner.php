@@ -8,7 +8,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-$mol_banner_eyebrow   = $args['eyebrow'] ?? 'Mollura Medical Hair Restoration';
+$mol_banner_eyebrow   = array_key_exists( 'eyebrow', $args ) ? $args['eyebrow'] : 'Mollura Medical Hair Restoration';
 $mol_banner_title     = $args['title'] ?? '';
 $mol_banner_image     = $args['image'] ?? '';
 $mol_banner_image_alt = $args['image_alt'] ?? '';
@@ -22,7 +22,9 @@ $mol_banner_cta_href  = $args['cta_href'] ?? '';
 	</div>
 	<?php endif; ?>
 	<div class="mol-container mol-inner-banner__content">
-		<span class="mol-eyebrow mol-eyebrow--on-dark"><?php echo esc_html( $mol_banner_eyebrow ); ?></span>
+		<?php if ( $mol_banner_eyebrow ) : ?>
+			<span class="mol-eyebrow mol-eyebrow--on-dark"><?php echo esc_html( $mol_banner_eyebrow ); ?></span>
+		<?php endif; ?>
 		<h1 class="mol-inner-banner__title"><?php echo esc_html( $mol_banner_title ); ?></h1>
 		<?php if ( $mol_banner_cta_text && $mol_banner_cta_href ) : ?>
 			<a class="mol-btn mol-btn--primary" href="<?php echo esc_url( $mol_banner_cta_href ); ?>"><?php echo esc_html( $mol_banner_cta_text ); ?></a>
