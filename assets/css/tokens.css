@@ -1,0 +1,80 @@
+/* Mollura Medical Hair Restoration — Design Tokens
+   Source: Mollura Brand Guidelines V2 (finalized 2026-07-31) */
+
+:root {
+  /* Color */
+  --color-bg: #FFFFFF;
+  --color-fg: #04435D;
+  --color-primary: #E76F51;
+  --color-primary-hover: #d95f3f;
+  --color-secondary: #0D849F;
+  --color-accent: #1C5A68;
+  --color-muted: #DCDCDC;
+  --color-surface-alt: #F0F0F0;
+  --color-navy-deep: #002A3C;
+  --color-border: #DCDCDC;
+  --color-dark: #04435D;
+  --color-white: #FFFFFF;
+
+  /* Type: text-on-color pairs */
+  --on-dark: #FFFFFF;
+  --on-primary: #FFFFFF;
+  --on-muted: var(--color-fg);
+
+  /* Fonts */
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Jost', sans-serif;
+
+  /* Type scale (desktop) */
+  --text-eyebrow: 13px;
+  --text-h1: 60px;
+  --text-h2: 32px;
+  --text-h3: 22px;
+  --text-body: 18px;
+  --text-small: 15px;
+  --text-button: 16px;
+
+  /* Type scale (mobile) */
+  --text-h1-mobile: 36px;
+  --text-h2-mobile: 26px;
+  --text-h3-mobile: 20px;
+  --text-body-mobile: 16px;
+
+  /* Radius */
+  --radius-button: 10px;
+  --radius-card: 10px;
+  --radius-input: 8px;
+  --radius-icon: 50%;
+
+  /* Borders */
+  --border-thin: 2px;
+
+  /* Spacing scale (multiples of 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Layout */
+  --container-max: 1280px;
+  --container-pad: 24px;
+
+  /* Motion */
+  --transition-fast: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* Icon circle */
+  --icon-size: 56px;
+
+  /* Focus ring */
+  --focus-ring: 2px solid var(--color-secondary);
+  --focus-ring-offset: 2px;
+}
