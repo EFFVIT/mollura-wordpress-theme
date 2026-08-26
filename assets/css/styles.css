@@ -919,7 +919,7 @@ iframe:focus-visible {
   inset: 0;
   background-image: url("../images/cta-bg.png");
   background-size: cover;
-  background-position: left center;
+  background-position: left top;
   opacity: 0.48;
 }
 .mol-cta .mol-container { position: relative; }
