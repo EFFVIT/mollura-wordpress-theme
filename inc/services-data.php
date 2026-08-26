@@ -389,6 +389,19 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'crown-hair-transplant' => array(
+			'banner_title'      => 'Crown Hair Transplant',
+			'banner_image'      => 'services/crown-hair-transplant-banner.png',
+			'intro_eyebrow'     => 'Hair Loss Solutions',
+			'intro_heading'     => 'Crown Hair Transplant',
+			'intro_image'       => 'services/crown-hair-transplant-intro.png',
+			'intro_image_alt'   => 'Illustration of a doctor performing a crown hair transplant procedure',
+			'intro_body'        => array(
+				'Vertex hair transplants (or crown hair transplants as it is commonly referred to) require a different level of planning and surgical precision compared to hairline restoration. The vertex contains a natural spiral pattern, meaning hair grows in multiple changing directions. A successful crown hair transplant depends on carefully replicating this swirl with precise graft angulation and direction. Graft distribution must be strategically mapped to create natural-looking density without overusing valuable donor hair.',
+				'Crown restoration often requires more grafts than patients expect because the vertex is a broad and highly visible area that reflects light easily, making thinning appear more pronounced. Especially in patients that have lighter colored hair in addition to pale skin. This combination exaggerates the appearance of thinning because the hair and underlying skin to not have any color contrast. The crown can have slightly reduced blood supply compared to the frontal scalp, which may result in a slightly longer waiting period before reaching full visual density. Dr. Mollura and the Mollura Medical Team prioritize long-term planning. Hair loss is a lifetime issue that requires consistent maintenance and evaluation. When properly designed and executed, a crown transplant can restore fullness while preserving a natural growth pattern that blends seamlessly with surrounding hair.',
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
