@@ -90,7 +90,7 @@ iframe:focus-visible {
   font-size: var(--text-button);
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  border: var(--border-thin) solid transparent;
+  border: var(--border-hairline) solid transparent;
   transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
   white-space: nowrap;
 }
@@ -329,6 +329,11 @@ iframe:focus-visible {
   position: relative;
   padding-top: var(--space-16);
   padding-bottom: var(--space-24);
+}
+.mol-hero__logo-mark {
+  width: 155px;
+  height: auto;
+  margin-bottom: var(--space-3);
 }
 .mol-hero__title {
   font-size: var(--text-h1);
@@ -690,7 +695,7 @@ iframe:focus-visible {
   text-align: left;
   background: var(--color-bg);
   border-radius: var(--radius-card);
-  border: 2px solid var(--color-border);
+  border: var(--border-hairline) solid var(--color-border);
   box-shadow: 0 4px 5px rgba(4, 67, 93, 0.06);
   padding: var(--space-6);
   min-height: 620px;
@@ -737,7 +742,7 @@ iframe:focus-visible {
   padding: var(--space-5);
   background: var(--color-white);
   text-align: left;
-  border: 2px solid var(--color-border);
+  border: var(--border-hairline) solid var(--color-border);
   box-shadow: 0 4px 5px rgba(4, 67, 93, 0.06);
   transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
   position: relative;
@@ -909,7 +914,7 @@ iframe:focus-visible {
   background-image: url("../images/cta-bg.png");
   background-size: cover;
   background-position: center 20%;
-  opacity: 0.2;
+  opacity: 0.48;
 }
 .mol-cta .mol-container { position: relative; }
 .mol-cta .mol-h2 { max-width: 760px; margin-left: auto; margin-right: auto; margin-bottom: var(--space-8); }

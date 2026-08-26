@@ -47,7 +47,8 @@
   --radius-icon: 50%;
 
   /* Borders */
-  --border-thin: 2px;
+  --border-thin: 2px; /* office-hours divider only — Figma specs ~1.875px there */
+  --border-hairline: 1px; /* plain 1px borders per Figma: outline buttons, cards, form container */
 
   /* Spacing scale (multiples of 4px) */
   --space-1: 4px;
