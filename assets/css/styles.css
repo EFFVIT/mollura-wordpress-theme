@@ -342,6 +342,11 @@ iframe:focus-visible {
   padding-top: var(--space-16);
   padding-bottom: var(--space-24);
 }
+.mol-hero__logo-mark {
+  width: 155px;
+  height: auto;
+  margin-bottom: var(--space-3);
+}
 .mol-hero__title {
   font-size: var(--text-h1);
   color: var(--color-white);

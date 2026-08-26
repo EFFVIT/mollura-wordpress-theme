@@ -24,7 +24,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 			<div class="mol-hero__overlay"></div>
 		</div>
 		<div class="mol-container mol-hero__content">
-			<span class="mol-eyebrow mol-eyebrow--on-dark">Mollura Medical Hair Restoration</span>
+			<img class="mol-hero__logo-mark" src="<?php echo esc_url( $img . 'hero-logo-mark.png' ); ?>" alt="Mollura Medical Hair Restoration" width="155" height="156">
 			<h1 class="mol-hero__title">Start Restoring<br>Your Hair Today!</h1>
 			<p class="mol-hero__body">Mollura Medical Hair Restoration is one of Long Island&rsquo;s top clinics for surgical and non-surgical hair loss treatments including FUE, FUT, supplemental PRP, hair loss medications, and more. Our knowledgeable team will help you regain the hair you deserve.</p>
 			<a class="mol-btn mol-btn--primary" href="#book-consultation">Contact Us</a>
