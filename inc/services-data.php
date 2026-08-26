@@ -331,6 +331,51 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'scalp-micropigmentation-smp' => array(
+			'banner_title'      => 'Scalp Micropigmentation (SMP)',
+			'banner_image'      => 'services/scalp-micropigmentation-smp-banner.png',
+			'intro_eyebrow'     => 'SMP',
+			'intro_heading'     => 'What is a Scalp Micropigmentation',
+			'intro_image'       => 'services/scalp-micropigmentation-smp-intro.png',
+			'intro_image_alt'   => '',
+			'intro_body'        => array(
+				'Scalp Micropigmentation (SMP) is a non-surgical cosmetic procedure designed to create the appearance of a fuller head of hair by applying specialized pigments to the scalp. It is often referred to as a &ldquo;hair tattoo&rdquo; but is far more precise and detailed than traditional tattooing.',
+			),
+			'benefits_eyebrow'  => 'Benefits',
+			'benefits_heading'  => 'Why Choose Scalp Micropigmentation',
+			'benefits_image'    => 'services/scalp-micropigmentation-smp-benefits.png',
+			'benefits_image_alt'=> '',
+			'benefits_list'     => array(
+				'Non-Invasive',
+				'Immediate Results',
+				'Long-Lasting',
+				'Long-Lasting',
+				'Customizable',
+			),
+			'faqs'              => array(
+				array(
+					'q' => 'How Does SMP Work?',
+					'a' => 'SMP involves depositing tiny, layered dots of pigment into the scalp using microneedles to mimic the appearance of hair follicles. This technique creates the illusion of hair density for individuals with thinning hair or complete hair loss. SMP can also camouflage scars from hair transplant surgeries or injuries.',
+				),
+				array(
+					'q' => 'Who Benefits from SMP?',
+					'a' => 'SMP is suitable for a wide range of individuals, including patients with Male Pattern Baldness, scars, Women with hair loss, and thinning hair.',
+				),
+				array(
+					'q' => 'Does SMP look natural?',
+					'a' => 'Yes, when performed by a skilled professional, SMP mimics natural hair follicles and seamlessly blends with your existing hair, creating a realistic appearance.',
+				),
+				array(
+					'q' => 'How long does SMP last?',
+					'a' => 'SMP results typically last 3-5 years. Over time, the pigments may fade slightly, requiring a touch-up to maintain the appearance.',
+				),
+				array(
+					'q' => 'How many sessions are required?',
+					'a' => 'SMP usually requires 3 or more sessions, spaced several weeks apart, to build the desired density and achieve a natural look.',
+				),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
