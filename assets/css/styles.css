@@ -1117,6 +1117,26 @@ iframe:focus-visible {
   border: 1px dashed rgba(255, 255, 255, 0.4);
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Light variant: full testimonials-list page (on white section bg) */
+.mol-testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+.mol-tcard--light {
+  background: var(--color-surface-alt);
+  border: var(--border-hairline) solid var(--color-border);
+}
+.mol-tcard--light .mol-tcard__quote { color: var(--color-fg); }
+.mol-tcard--light .mol-tcard__name { color: var(--color-fg); font-weight: 700; font-family: var(--font-heading); }
+@media (max-width: 960px) {
+  .mol-testimonial-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .mol-testimonial-grid { grid-template-columns: 1fr; }
+}
 .mol-tcard__name {
   display: block;
   font-style: normal;
