@@ -402,6 +402,22 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		// -- Learn section pages below (same generic intro+benefits+FAQ
+		// shape, reusing this template rather than duplicating it) --
+
+		'alopecia-types-and-hair-transplant-considerations' => array(
+			'banner_title'      => 'Alopecia: Types and Hair Transplant Considerations',
+			'banner_image'      => 'learn/alopecia-banner.png',
+			'intro_eyebrow'     => 'Hair Loss Solutions',
+			'intro_heading'     => 'Alopecia: Types and Hair Transplant Considerations',
+			'intro_image'       => 'learn/alopecia-intro.png',
+			'intro_image_alt'   => '',
+			'intro_body'        => array(
+				'Alopecia is a broad term describing hair loss, and understanding the underlying cause is critical before considering surgical treatment. The most common type is androgenetic alopecia which is male and female pattern hair loss, a genetically driven, progressive condition influenced by DHT sensitivity. This form of alopecia is typically the best candidate for hair transplantation because the donor area in back and sides of the scalp is genetically resistant to DHT. With proper medical stabilization through PRP or topical and oral medications like finasteride or minoxidil, transplantation can provide long-term natural results.',
+				'Other types of alopecia require more caution. Alopecia areata is an autoimmune condition that causes patchy hair loss and may be unpredictable; transplantation is generally not recommended unless the disease has been inactive for a prolonged period. Traction alopecia, caused by chronic tension from hairstyles, can often be treated successfully with transplantation once the damaging behavior has stopped. Cicatricial (scarring) alopecias, such as lichen planopilaris or frontal fibrosing alopecia, involve inflammatory destruction of hair follicles and require medical management to achieve stability before surgical consideration. In all cases, a thorough medical evaluation with Mollura Medical Hair Restoration is essential to determine candidacy. Hair transplantation is most effective when the underlying alopecia is stable, well-diagnosed, and appropriately managed.',
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
