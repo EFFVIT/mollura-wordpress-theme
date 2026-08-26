@@ -532,6 +532,35 @@ iframe:focus-visible {
   color: var(--color-dark);
 }
 
+/* ---------- Contact / Directions ---------- */
+.mol-map-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+.mol-map-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
+.mol-contact-form-wrap { min-height: 620px; }
+.mol-contact-form-wrap iframe { width: 100%; height: 100%; min-height: 620px; border: 0; border-radius: var(--radius-card); display: block; }
+
+/* ---------- Legal pages / Sitemap ---------- */
+.mol-legal { max-width: 860px; margin: 0 auto; }
+.mol-legal .mol-eyebrow { display: block; margin-top: var(--space-8); margin-bottom: var(--space-2); }
+.mol-legal h2, .mol-legal h3, .mol-legal h4 { margin-top: var(--space-8); }
+.mol-legal ol, .mol-legal ul { margin: 0 0 var(--space-5) var(--space-6); }
+.mol-legal li { margin-bottom: var(--space-2); }
+.mol-sitemap-list {
+  columns: 2;
+  column-gap: var(--space-10);
+  max-width: 860px;
+  margin: 0 auto;
+}
+.mol-sitemap-list ul { list-style: none; margin: 0; padding: 0; }
+.mol-sitemap-list li { margin-bottom: var(--space-3); break-inside: avoid; }
+.mol-sitemap-list a { color: var(--color-dark); text-decoration: none; }
+.mol-sitemap-list a:hover { color: var(--color-secondary); text-decoration: underline; }
+
 /* ---------- Benefits (service detail pages) ---------- */
 .mol-benefits {
   background: var(--color-surface-alt);
