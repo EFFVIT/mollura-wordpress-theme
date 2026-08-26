@@ -417,9 +417,9 @@ $img = get_template_directory_uri() . '/assets/images/';
 						title="Mollura Hair Website Home Page">
 					</iframe>
 				</div>
-				<div class="mol-consultation__photos" aria-hidden="true">
-					<img class="mol-consultation__photo mol-consultation__photo--back" src="<?php echo esc_url( $img . 'dr-mollura.jpg' ); ?>" alt="">
-					<img class="mol-consultation__photo mol-consultation__photo--front" src="<?php echo esc_url( $img . 'dr-mollura.jpg' ); ?>" alt="">
+				<div class="mol-consultation__photos">
+					<img class="mol-consultation__photo mol-consultation__photo--back" src="<?php echo esc_url( $img . 'consultation-photo-1.png' ); ?>" alt="Patient during a virtual consultation with Mollura Medical Hair Restoration">
+					<img class="mol-consultation__photo mol-consultation__photo--front" src="<?php echo esc_url( $img . 'consultation-photo-2.png' ); ?>" alt="Patient shaking hands with a Mollura Medical Hair Restoration doctor">
 				</div>
 			</div>
 		</div>
