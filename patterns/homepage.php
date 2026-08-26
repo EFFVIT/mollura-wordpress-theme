@@ -92,19 +92,6 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 				</a>
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/eyebrow-hair-restoration/">
-					<div class="mol-card__top">
-						<span class="mol-icon-circle" aria-hidden="true">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
-						</span>
-						<h3>Eyebrow Hair<br>Restoration</h3>
-					</div>
-					<div class="mol-card__reveal">
-						<p>Thinning or overplucked eyebrows can be revitalized.</p>
-						<span class="mol-card__link">More Info</span>
-					</div>
-				</a>
-
 				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/laser-hair-therapy-device/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
@@ -114,6 +101,19 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 					<div class="mol-card__reveal">
 						<p>Low-level laser light therapy has been shown to help promote hair growth.</p>
+						<span class="mol-card__link">More Info</span>
+					</div>
+				</a>
+
+				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/eyebrow-hair-restoration/">
+					<div class="mol-card__top">
+						<span class="mol-icon-circle" aria-hidden="true">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
+						</span>
+						<h3>Eyebrow Hair<br>Restoration</h3>
+					</div>
+					<div class="mol-card__reveal">
+						<p>Thinning or overplucked eyebrows can be revitalized.</p>
 						<span class="mol-card__link">More Info</span>
 					</div>
 				</a>
