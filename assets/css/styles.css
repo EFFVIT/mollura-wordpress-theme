@@ -686,20 +686,16 @@ iframe:focus-visible {
   background: var(--color-bg);
   padding-top: var(--space-24);
   padding-bottom: var(--space-24);
-  text-align: center;
 }
 .mol-consultation__text {
   max-width: 700px;
-  margin: 0 auto var(--space-10);
+  margin: 0 0 var(--space-10);
 }
 .mol-consultation__row {
   display: grid;
   grid-template-columns: minmax(0, 737px) minmax(0, 467px);
   gap: var(--space-10);
   align-items: center;
-  justify-content: center;
-  max-width: 1280px;
-  margin: 0 auto;
 }
 .mol-consultation__form {
   text-align: left;
