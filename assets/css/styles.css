@@ -466,11 +466,13 @@ iframe:focus-visible {
 }
 
 /* ---------- FAQ (service detail pages) ---------- */
+.mol-faq { text-align: center; }
 .mol-faq__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 var(--space-10);
   margin-top: var(--space-10);
+  text-align: left;
 }
 .mol-faq__item {
   border-bottom: var(--border-hairline) solid var(--color-border);

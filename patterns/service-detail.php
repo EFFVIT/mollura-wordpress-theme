@@ -70,8 +70,8 @@ $img = get_template_directory_uri() . '/assets/images/';
 
 	<!-- FAQ -->
 	<?php if ( ! empty( $mollura_svc['faqs'] ) ) : ?>
-	<section class="mol-content-section">
-		<div class="mol-container" style="text-align:center;">
+	<section class="mol-content-section mol-faq">
+		<div class="mol-container">
 			<h2 class="mol-h2">Frequently Asked Questions</h2>
 			<?php
 			$mollura_faqs   = $mollura_svc['faqs'];
@@ -79,7 +79,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 			$mollura_col1   = array_slice( $mollura_faqs, 0, $mollura_half );
 			$mollura_col2   = array_slice( $mollura_faqs, $mollura_half );
 			?>
-			<div class="mol-faq__grid" style="text-align:left;">
+			<div class="mol-faq__grid">
 				<div>
 					<?php foreach ( $mollura_col1 as $mollura_i => $mollura_faq ) : ?>
 						<details class="mol-faq__item"<?php echo 0 === $mollura_i ? ' open' : ''; ?>>
