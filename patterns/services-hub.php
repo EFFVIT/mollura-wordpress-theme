@@ -67,8 +67,6 @@ $img = get_template_directory_uri() . '/assets/images/';
 				<h3>Medical Hair Loss Therapy</h3>
 				<p>Today with advances in pharmacology and laser technology there are several options for men and women to maintain and even regrow some hair.</p>
 				<p>Propecia&reg; is a pill, which is only for men, and must be taken daily. It has been FDA approved for the treatment of hair loss and has been shown effective in early hair loss.</p>
-				<p>Rogaine is a FDA approved topical solution that can be used for both men and women.</p>
-				<p>Laser hair therapy is an easy and effective treatment for men and women that can be used at home or our office. It can be used alone or in combined therapy and as an addition to surgery. Women often find laser therapy to be of great benefit and a favorite treatment.</p>
 				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/prp-therapy/">Learn More</a>
 			</div>
 
