@@ -175,6 +175,55 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'african-american-hair-restoration' => array(
+			'banner_title'      => 'African American Hair Restoration',
+			'banner_image'      => 'services/african-american-hair-restoration-banner.png',
+			'intro_eyebrow'     => 'African American Hair Restoration',
+			'intro_heading'     => 'What is African American Hair Restoration',
+			'intro_image'       => 'services/african-american-hair-restoration-intro.png',
+			'intro_image_alt'   => 'Man examining his curly hair and hairline',
+			'intro_body'        => array(
+				'It is the same technique as an FUE or FUT hair transplant. The difference being that physiologically, the hair follicle in this hair type is curled rather than angled in the scalp. This requires a surgeon with years of experience to properly extract the hair follicles safely. At Mollura Medical Hair Restoration, we&rsquo;ve helped hundreds of individuals with this type of hair.',
+			),
+			'benefits_eyebrow'  => 'Benefits',
+			'benefits_heading'  => 'Why Choose Mollura Medical Hair Restoration',
+			'benefits_image'    => 'services/african-american-hair-restoration-benefits.png',
+			'benefits_image_alt'=> 'Portrait of a man with natural-looking, healthy hair',
+			'benefits_list'     => array(
+				'Permanent Results',
+				'Natural Hairline Design',
+				'Advanced Techniques',
+				'Proficiency with Donor Hair',
+				'Understanding of Hair Texture',
+			),
+			'faqs'              => array(
+				array(
+					'q' => 'Are Hair Transplants effective for African American Hair?',
+					'a' => 'Yes, they are highly effective when performed by an experienced surgeon that is familiar with the unique characteristics of curly and coiled hair follicles.',
+				),
+				array(
+					'q' => 'What challenges are unique to African American Hair Transplants?',
+					'a' => 'The hair follicle in this hair type is curled rather than angled in the scalp. This requires a surgeon with specialized tools and years of experience to properly extract the hair follicles safely. There is also a much higher tendency for Keloid scarring.',
+				),
+				array(
+					'q' => 'Which hair transplant method is best for African American patients?',
+					'a' => 'Both FUE and FUT Hair Transplants can be effective for African American patients. The best method will be recommended during consultation after a review of the patient&rsquo;s goals, hair characteristics, and donor area density.',
+				),
+				array(
+					'q' => 'Will the transplanted hair match my natural texture?',
+					'a' => 'Yes, the transplanted hair will match your natural texture because it comes from your own donor area. An experienced surgeon ensures that the direction, density, and curl pattern blend seamlessly with your existing hair.',
+				),
+				array(
+					'q' => 'Can a hair transplant fix traction alopecia?',
+					'a' => 'Yes, hair transplants are a common solution for traction alopecia caused by tight hairstyles.',
+				),
+				array(
+					'q' => 'When will I see the results?',
+					'a' => 'Like with any FUE or FUT Hair Transplant, new hair growth typically starts around 3-4 months, with full results visible after 12-14 months.',
+				),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
