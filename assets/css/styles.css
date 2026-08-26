@@ -543,6 +543,9 @@ iframe:focus-visible {
 .mol-med-card h3 { margin-bottom: var(--space-2); }
 .mol-med-grid--stacked { grid-template-columns: 1fr; }
 
+.mol-split__text .mol-badge-img { max-width: 200px; margin-top: var(--space-4); }
+.mol-faq__grid--single { grid-template-columns: 1fr; max-width: 800px; }
+
 .mol-split--33-66 { grid-template-columns: 1fr 2fr; }
 
 @media (max-width: 860px) {
