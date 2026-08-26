@@ -539,8 +539,9 @@ iframe:focus-visible {
   margin-top: var(--space-6);
 }
 .mol-med-card { display: flex; align-items: center; gap: var(--space-5); }
-.mol-med-card img { width: 90px; height: auto; flex-shrink: 0; border-radius: var(--radius-card); }
+.mol-med-card img { width: 130px; height: auto; flex-shrink: 0; border-radius: var(--radius-card); }
 .mol-med-card h3 { margin-bottom: var(--space-2); }
+.mol-med-grid--stacked { grid-template-columns: 1fr; }
 
 .mol-split--33-66 { grid-template-columns: 1fr 2fr; }
 
