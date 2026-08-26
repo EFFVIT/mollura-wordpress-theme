@@ -30,7 +30,8 @@ $mollura_nav = mollura_primary_nav();
 <header class="mol-header">
 	<div class="mol-container mol-header__inner">
 		<a class="mol-header__logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="Mollura Medical Hair Restoration home">
-			<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo-color.png' ); ?>" alt="Mollura Medical Hair Restoration" width="167" height="129">
+			<span class="mol-header__logo-line1">Mollura Medical</span>
+			<span class="mol-header__logo-line2">Hair Restoration</span>
 		</a>
 
 		<button class="mol-nav-toggle" type="button" aria-expanded="false" aria-controls="mol-primary-nav" aria-label="Toggle navigation menu">
