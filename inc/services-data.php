@@ -279,6 +279,58 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'prp-therapy' => array(
+			'banner_title'      => 'PRP Therapy',
+			'banner_image'      => 'services/prp-therapy-banner.png',
+			'intro_eyebrow'     => 'PRP Therapy',
+			'intro_heading'     => 'What is PRP Therapy',
+			'intro_image'       => 'services/prp-therapy-intro.png',
+			'intro_image_alt'   => 'Diagram of the PRP process: blood collection, centrifugation, and PRP injection',
+			'intro_body'        => array(
+				'Platelet-rich plasma (PRP) therapy is a non-surgical treatment that has been used to promote hair growth and hair health in individuals with hair loss. PRP is a concentrated solution of platelets derived from the patient&rsquo;s own blood, which contains growth factors that can stimulate hair follicles and improve hair growth.',
+				'<strong>PRP with ACell Treatment</strong><br>Stem cells and cellular regeneration are at the cutting edge of hair restoration science. PRP with ACell treatment offers a new way to treat hair loss, strengthen weaker hairs, and possibly stimulate new hair growth without surgery. While no treatment currently exists that can replicate the results of a professional hair transplant, PRP with ACell shows promising results for total hair health. As a leader in innovation in the Hair Restoration industry for over 25 years, Dr. Anthony Mollura uses PRP with ACell treatments in conjunction with other non-surgical treatments to offer a fully customizable treatment plan for each individual patient.',
+			),
+			'secondary_body'    => array(
+				'<strong>What is PRP with ACell Treatment</strong><br>PRP with ACell is a non-surgical treatment for hair thinning and hair loss that uses your own blood to stimulate growth. It is a quick 60 minute in-office treatment with little to no downtime. Platelet-rich plasma (PRP) therapy is a concentrated solution of platelets derived from the patient&rsquo;s own blood, which contains growth factors. The growth factors signal your tissue to regenerate. ACell is an FDA-cleared, naturally-occurring extracellular matrix used in regenerative medicine to repair tissues, close wounds, and stimulate hair follicle regeneration. It acts as a scaffold that recruits stem cells to damaged areas. This treatment is appropriate for both men and women that are experiencing pattern hair loss and other forms of hair loss.',
+			),
+			'benefits_eyebrow'  => 'Benefits',
+			'benefits_heading'  => 'Why Choose PRP Therapy',
+			'benefits_image'    => 'services/prp-therapy-benefits.png',
+			'benefits_image_alt'=> 'Patient receiving PRP therapy treatment',
+			'benefits_list'     => array(
+				'Non-Surgical and Minimally Invasive',
+				'Quick 60-minute Procedure With No Downtime',
+				'Can Be Combined with Other Treatments',
+				'Improves Hair Thickness and Density',
+			),
+			'faqs'              => array(
+				array(
+					'q' => 'How does PRP work to restore hair?',
+					'a' => 'PRP contains growth factors that help repair and rejuvenate damaged hair follicles. These growth factors stimulate blood flow, encourage cell repair, and support the natural growth cycle of your hair.',
+				),
+				array(
+					'q' => 'How many sessions of PRP are needed for noticeable results?',
+					'a' => 'Most patients require an initial series of 3 treatments spaced 4 weeks apart with a 4th treatment 6 months after. Maintenance treatments every 4-6 months are recommended to sustain results.',
+				),
+				array(
+					'q' => 'Does PRP therapy hurt?',
+					'a' => 'The procedure involves minimal discomfort. A numbing agent may be applied to the scalp before the injections to ensure your comfort during the treatment.',
+				),
+				array(
+					'q' => 'How soon can I expect to see results?',
+					'a' => 'Patients often notice improvements in hair texture and thickness within 3-6 months. Full results typically become apparent after a year of consistent treatment.',
+				),
+				array(
+					'q' => 'Can PRP be combined with other hair loss treatments?',
+					'a' => 'Yes, PRP can enhance the results of other treatments such as hair transplants, topical solutions like minoxidil, or oral medications like finasteride.',
+				),
+				array(
+					'q' => 'Am I a good candidate for PRP hair loss treatments?',
+					'a' => 'PRP is ideal for individuals experiencing thinning hair or mild-to-moderate hair loss. It&rsquo;s most effective for patients with active hair follicles. A consultation will determine if PRP is right for you.',
+				),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
