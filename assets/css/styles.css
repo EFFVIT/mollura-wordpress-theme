@@ -356,6 +356,65 @@ iframe:focus-visible {
   max-width: 560px;
 }
 
+/* ---------- Inner page banner (interior pages) ---------- */
+.mol-inner-banner {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-dark);
+  color: var(--color-white);
+  text-align: center;
+  padding-top: var(--space-24);
+  padding-bottom: var(--space-24);
+}
+.mol-inner-banner__media {
+  position: absolute;
+  inset: 0;
+  opacity: 0.48;
+}
+.mol-inner-banner__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.mol-inner-banner__content { position: relative; }
+.mol-inner-banner__title {
+  font-size: var(--text-h1);
+  color: var(--color-white);
+  margin-bottom: var(--space-6);
+}
+.mol-inner-banner--compact .mol-inner-banner__title { margin-bottom: 0; }
+
+/* ---------- Generic content page sections ---------- */
+.mol-content-section {
+  padding-top: var(--space-24);
+  padding-bottom: var(--space-24);
+}
+.mol-content-section + .mol-content-section { padding-top: 0; }
+.mol-h3 {
+  font-size: var(--text-h3);
+  margin-bottom: var(--space-4);
+}
+.mol-content-section p { margin-bottom: var(--space-5); }
+.mol-content-section p:last-child { margin-bottom: 0; }
+
+.mol-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: center;
+}
+.mol-split__media img { border-radius: var(--radius-card); width: 100%; }
+.mol-split--reverse .mol-split__media { order: 2; }
+
+.mol-content-block + .mol-content-block { margin-top: var(--space-10); }
+.mol-content-block__cta { margin-top: var(--space-6); }
+
+@media (max-width: 860px) {
+  .mol-split { grid-template-columns: 1fr; gap: var(--space-6); }
+  .mol-split--reverse .mol-split__media { order: 0; }
+}
+
 /* ---------- Office hours / consultation info bar ---------- */
 .mol-info-bar {
   background: var(--color-accent);
