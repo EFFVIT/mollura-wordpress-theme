@@ -65,8 +65,8 @@ $img = get_template_directory_uri() . '/assets/images/';
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
 				</span>
 				<h3>Medical Hair Loss Therapy</h3>
-				<p>Today with advances in pharmacology and laser technology there are several options for men and women to maintain and even regrow some hair.</p>
-				<p>Propecia&reg; is a pill, which is only for men, and must be taken daily. It has been FDA approved for the treatment of hair loss and has been shown effective in early hair loss.</p>
+				<!-- Condensed summary, NOT verbatim from the live site -- authored to match card length at explicit user request, needs compliance review before launch. See project memory. -->
+				<p>Today&rsquo;s advances in pharmacology and laser technology offer several options to maintain and even regrow hair. Propecia&reg; (men only) and Rogaine are FDA-approved medications, and laser hair therapy is a safe, effective treatment for men and women that can be used at home or in-office, alone or alongside surgery.</p>
 				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/prp-therapy/">Learn More</a>
 			</div>
 
