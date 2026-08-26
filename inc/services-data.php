@@ -152,6 +152,29 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'eyebrow-hair-restoration' => array(
+			'banner_title'      => 'Eyebrow Hair Restoration',
+			'banner_image'      => 'services/eyebrow-hair-restoration-banner.png',
+			'intro_eyebrow'     => 'Hair Loss Solutions',
+			'intro_heading'     => 'Eyebrow Hair Restoration',
+			'intro_image'       => 'services/eyebrow-hair-restoration-intro.png',
+			'intro_image_alt'   => '',
+			'intro_body'        => array(
+				'Loss of eyebrow hair can make an individual feel self-conscious about his or her appearance, and new hair transplantation techniques can often restore eyebrows. You often do not realize the full impact that eyebrows can make on the total facial appearance until you see a person without them.',
+				'Eyebrow hair transplantation can successfully correct the loss or thinning of eyebrows with natural-growing hair and appearance. The surgery can correct complete or partial eyebrow hair loss and cover scars of one or both eyebrows, with results that are often amazing and aesthetically pleasing. The surgery can be performed on women or men and usually takes a morning or afternoon session.',
+			),
+			'secondary_eyebrow' => 'Hair Loss Solutions',
+			'secondary_heading' => 'Restoring Your Eyebrows',
+			'secondary_body'    => array(
+				'Eyebrow hair restoration involves a special skill set to achieve the most natural results possible. The type of donor hair used and the angle of the incision to replicate the original eyebrow pattern are critical to achieving a completely natural result. For that reason, we approach eyebrow transplantation with the same customization and precision as our other offerings. Dr. Mollura applies the most advanced surgical and artistic techniques to recreate the natural growth and appearance of the eyebrow.',
+			),
+			'gallery_heading'   => 'Click Images to Enlarge',
+			'gallery_images'    => array(
+				array( 'src' => 'services/eyebrow-hair-restoration-gallery-1.png', 'alt' => 'Before and after eyebrow hair transplant result, 28 year old male, 710 grafts transplanted, FUT eyebrow hair transplant' ),
+				array( 'src' => 'services/eyebrow-hair-restoration-gallery-2.png', 'alt' => 'Before and after eyebrow hair transplant result, 38 year old female, 624 grafts transplanted, FUT eyebrow hair transplant' ),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;

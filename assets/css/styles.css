@@ -507,12 +507,22 @@ iframe:focus-visible {
 .mol-faq__item[open] summary::after { content: "\2212"; }
 .mol-faq__item p { margin-top: var(--space-3); }
 
+/* ---------- Image gallery (service detail pages) ---------- */
+.mol-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+.mol-gallery-grid img { border-radius: var(--radius-card); width: 100%; }
+
 @media (max-width: 860px) {
   .mol-split { grid-template-columns: 1fr; gap: var(--space-6); }
   .mol-split--reverse .mol-split__media { order: 0; }
   .mol-hub-grid { grid-template-columns: 1fr; }
   .mol-checklist { grid-template-columns: 1fr; }
   .mol-faq__grid { grid-template-columns: 1fr; gap: 0; }
+  .mol-gallery-grid { grid-template-columns: 1fr; }
 }
 
 /* ---------- Office hours / consultation info bar ---------- */

@@ -43,6 +43,39 @@ $img = get_template_directory_uri() . '/assets/images/';
 		</div>
 	</section>
 
+	<!-- Secondary text block (single-column, no image) -->
+	<?php if ( ! empty( $mollura_svc['secondary_body'] ) ) : ?>
+	<section class="mol-content-section mol-content-section--flush-top">
+		<div class="mol-container">
+			<?php if ( ! empty( $mollura_svc['secondary_eyebrow'] ) ) : ?>
+				<span class="mol-eyebrow"><?php echo esc_html( $mollura_svc['secondary_eyebrow'] ); ?></span>
+			<?php endif; ?>
+			<?php if ( ! empty( $mollura_svc['secondary_heading'] ) ) : ?>
+				<h2 class="mol-h2"><?php echo esc_html( $mollura_svc['secondary_heading'] ); ?></h2>
+			<?php endif; ?>
+			<?php foreach ( $mollura_svc['secondary_body'] as $mollura_p ) : ?>
+				<p><?php echo wp_kses_post( $mollura_p ); ?></p>
+			<?php endforeach; ?>
+		</div>
+	</section>
+	<?php endif; ?>
+
+	<!-- Gallery -->
+	<?php if ( ! empty( $mollura_svc['gallery_images'] ) ) : ?>
+	<section class="mol-content-section mol-content-section--flush-top">
+		<div class="mol-container">
+			<?php if ( ! empty( $mollura_svc['gallery_heading'] ) ) : ?>
+				<h3 class="mol-h3"><?php echo esc_html( $mollura_svc['gallery_heading'] ); ?></h3>
+			<?php endif; ?>
+			<div class="mol-gallery-grid">
+				<?php foreach ( $mollura_svc['gallery_images'] as $mollura_gimg ) : ?>
+					<img src="<?php echo esc_url( $img . $mollura_gimg['src'] ); ?>" alt="<?php echo esc_attr( $mollura_gimg['alt'] ?? '' ); ?>">
+				<?php endforeach; ?>
+			</div>
+		</div>
+	</section>
+	<?php endif; ?>
+
 	<!-- Benefits -->
 	<?php if ( ! empty( $mollura_svc['benefits_list'] ) ) : ?>
 	<section class="mol-content-section mol-benefits">
