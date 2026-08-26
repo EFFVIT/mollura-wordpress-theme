@@ -519,6 +519,19 @@ iframe:focus-visible {
 }
 .mol-video-card__title { padding: var(--space-5) var(--space-6); font-weight: 700; color: var(--color-dark); }
 
+/* ---------- Gallery before/after grid ---------- */
+.mol-gallery-ba-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-8) var(--space-6);
+}
+.mol-gallery-ba-item__title {
+  margin-top: var(--space-3);
+  font-size: 1.125rem;
+  text-align: center;
+  color: var(--color-dark);
+}
+
 /* ---------- Benefits (service detail pages) ---------- */
 .mol-benefits {
   background: var(--color-surface-alt);
@@ -664,6 +677,7 @@ iframe:focus-visible {
   .mol-gallery-grid { grid-template-columns: 1fr; }
   .mol-case-grid { grid-template-columns: 1fr; }
   .mol-video-grid { grid-template-columns: 1fr; }
+  .mol-gallery-ba-grid { grid-template-columns: 1fr; }
 }
 
 /* ---------- Office hours / consultation info bar ---------- */
