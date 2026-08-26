@@ -224,6 +224,17 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'female-hair-loss-treatment' => array(
+			'banner_title'      => 'Female Hair Loss Treatment',
+			'banner_image'      => 'services/female-hair-loss-treatment-banner.png',
+			'intro_image'       => 'services/female-hair-loss-treatment-intro.png',
+			'intro_image_alt'   => 'Illustration of a woman examining hair loss with a comb',
+			'intro_body'        => array(
+				'Hair loss for women can be treated with both surgical and non-surgical treatments. Hair Transplants are the most effective option for adding significant hair density. Other options for treating women&rsquo;s hair loss include Oral or Topical Medication, PRP Therapy, and Laser Cap devices. Which treatments are best for you will depend on your specific goals. During a consultation, Dr. Mollura can recommend various combinations of treatments based on your goals for hair restoration.',
+				'Contrary to popular belief, female hair loss is relatively common. Approximately 30% of women will experience at least some degree of thinning. The differences between female hair loss and male pattern baldness are vast, beginning with the visual variance. While men tend to get bald spots, often beginning with a receding hairline, women rarely have either. Instead, they tend to experience thinning throughout, all over the head. Women can also experience the partial or total loss of their eyebrows and eyelashes. Although women generally conceal hair loss with styling techniques &amp; cosmetic enhancements, they often suffer more than their male counterparts from the psychological impact of the condition and the societal belief that thinning hair is normal for men but unheard of for women.',
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;

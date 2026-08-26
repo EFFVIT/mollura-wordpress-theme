@@ -34,8 +34,12 @@ $img = get_template_directory_uri() . '/assets/images/';
 				<img src="<?php echo esc_url( $img . $mollura_svc['intro_image'] ); ?>" alt="<?php echo esc_attr( $mollura_svc['intro_image_alt'] ?? '' ); ?>">
 			</div>
 			<div class="mol-split__text">
-				<span class="mol-eyebrow"><?php echo esc_html( $mollura_svc['intro_eyebrow'] ); ?></span>
-				<h2 class="mol-h2"><?php echo esc_html( $mollura_svc['intro_heading'] ); ?></h2>
+				<?php if ( ! empty( $mollura_svc['intro_eyebrow'] ) ) : ?>
+					<span class="mol-eyebrow"><?php echo esc_html( $mollura_svc['intro_eyebrow'] ); ?></span>
+				<?php endif; ?>
+				<?php if ( ! empty( $mollura_svc['intro_heading'] ) ) : ?>
+					<h2 class="mol-h2"><?php echo esc_html( $mollura_svc['intro_heading'] ); ?></h2>
+				<?php endif; ?>
 				<?php foreach ( $mollura_svc['intro_body'] as $mollura_p ) : ?>
 					<p><?php echo wp_kses_post( $mollura_p ); ?></p>
 				<?php endforeach; ?>
