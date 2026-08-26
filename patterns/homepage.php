@@ -97,7 +97,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.914 4a1.5 1.5 0 0 0-2.474-1.561l-9 9A1.5 1.5 0 0 0 5.5 14h4.002a.5.5 0 0 1 .471.666L8.086 20a1.5 1.5 0 0 0 2.475 1.56l9-9A1.5 1.5 0 0 0 18.5 10h-3.997a.5.5 0 0 1-.472-.667z"/></svg>
 						</span>
-						<h3>Laser Light<br>Therapy</h3>
+						<h3>FUT Hair<br>Transplant</h3>
 					</div>
 					<div class="mol-card__reveal">
 						<p>Low-level laser light therapy has been shown to help promote hair growth.</p>
