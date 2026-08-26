@@ -532,6 +532,19 @@ iframe:focus-visible {
 .mol-content-section--accent h3 { color: var(--color-white); }
 .mol-eyebrow--spaced { display: block; margin-top: var(--space-8); }
 
+.mol-med-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  margin-top: var(--space-6);
+}
+.mol-med-card { display: flex; align-items: center; gap: var(--space-5); }
+.mol-med-card img { width: 90px; height: auto; flex-shrink: 0; border-radius: var(--radius-card); }
+.mol-med-card h3 { margin-bottom: var(--space-2); }
+@media (max-width: 860px) {
+  .mol-med-grid { grid-template-columns: 1fr; }
+}
+
 .mol-feature-list {
   margin-top: var(--space-4);
   display: flex;
