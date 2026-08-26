@@ -319,8 +319,6 @@ iframe:focus-visible {
   color: var(--color-white);
   overflow: hidden;
   min-height: 600px;
-  display: flex;
-  align-items: flex-start;
 }
 .mol-hero__media {
   position: absolute;
