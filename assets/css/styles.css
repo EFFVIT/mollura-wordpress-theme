@@ -414,7 +414,7 @@ iframe:focus-visible {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-6);
-  align-items: start;
+  align-items: stretch;
 }
 .mol-hub-card {
   display: flex;
