@@ -112,6 +112,46 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'facial-hair-transplants' => array(
+			'banner_title'      => 'Facial Hair Transplants',
+			'banner_image'      => 'services/facial-hair-transplants-banner.png',
+			'intro_eyebrow'     => 'Facial Hair Transplant',
+			'intro_heading'     => 'What is a Facial Hair Transplant?',
+			'intro_image'       => 'services/facial-hair-transplants-intro.png',
+			'intro_image_alt'   => 'Surgeon marking the beard area before a facial hair transplant procedure',
+			'intro_body'        => array(
+				'A facial hair transplant is a cosmetic procedure that can enhance facial hair growth in areas such as the beard, eyebrows, or sideburns. It involves transplanting hair follicles from the donor area in the back of the head to the desired facial region, creating a denser, natural looking appearance.',
+			),
+			'benefits_eyebrow'  => 'Benefits',
+			'benefits_heading'  => 'Why Choose a Facial Hair Transplant',
+			'benefits_image'    => 'services/facial-hair-transplants-benefits.png',
+			'benefits_image_alt'=> 'Portrait of a man with a full, natural-looking beard',
+			'benefits_list'     => array(
+				'Natural Results',
+				'Permanent Solutions',
+				'Customizable',
+				'Minimal Downtime',
+			),
+			'faqs'              => array(
+				array(
+					'q' => 'Who is a good candidate?',
+					'a' => 'Individuals with patchy or sparse facial hair growth. Those seeking to enhance the appearance of their beard, eyebrows, or sideburns',
+				),
+				array(
+					'q' => 'Is a Facial Hair Transplant Permanent?',
+					'a' => 'Yes, the transplanted hair is permanent.',
+				),
+				array(
+					'q' => 'When will I see the results?',
+					'a' => 'New growth typically begins within 3 to 4 months. Full results are visible after 12-14 months.',
+				),
+				array(
+					'q' => 'Is a Facial Hair Transplant painful?',
+					'a' => 'No. Patients are under local anesthesia and will not feel any pain during the procedure.',
+				),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
