@@ -516,6 +516,43 @@ iframe:focus-visible {
 }
 .mol-gallery-grid img { border-radius: var(--radius-card); width: 100%; }
 
+/* ---------- Spacing utilities (long-form service pages) ---------- */
+.mol-mt-6 { margin-top: var(--space-6) !important; }
+.mol-mt-8 { margin-top: var(--space-8) !important; }
+.mol-mb-10 { margin-bottom: var(--space-10) !important; }
+
+/* ---------- Accent content block + feature list (long-form service pages) ---------- */
+.mol-content-section--accent {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+.mol-content-section--accent .mol-eyebrow { color: var(--color-white); opacity: 0.85; }
+.mol-content-section--accent .mol-h2,
+.mol-content-section--accent .mol-h3,
+.mol-content-section--accent h3 { color: var(--color-white); }
+.mol-eyebrow--spaced { display: block; margin-top: var(--space-8); }
+
+.mol-feature-list {
+  margin-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.mol-feature-list li {
+  position: relative;
+  padding-left: var(--space-6);
+}
+.mol-feature-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-secondary);
+}
+
 @media (max-width: 860px) {
   .mol-split { grid-template-columns: 1fr; gap: var(--space-6); }
   .mol-split--reverse .mol-split__media { order: 0; }
