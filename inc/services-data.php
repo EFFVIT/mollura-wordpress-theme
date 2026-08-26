@@ -235,6 +235,50 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'hair-transplant-repair-corrective-surgery' => array(
+			'banner_title'      => 'Hair Transplant Repair (Corrective Surgery)',
+			'banner_image'      => 'services/hair-transplant-repair-corrective-surgery-banner.png',
+			'intro_eyebrow'     => 'Corrective Surgery',
+			'intro_heading'     => 'What is a Hair Transplant Repair?',
+			'intro_image'       => 'services/hair-transplant-repair-corrective-surgery-intro.png',
+			'intro_image_alt'   => '',
+			'intro_body'        => array(
+				'A Hair Transplant Repair is a procedure designed to address and improve unsatisfactory results from a previous hair transplant. This can often occur when a Hair Transplant is performed by an inexperienced Doctor.',
+			),
+			'benefits_eyebrow'  => 'Benefits',
+			'benefits_heading'  => 'Why Choose a Hair Transplant Repair',
+			'benefits_image'    => 'services/hair-transplant-repair-corrective-surgery-benefits.png',
+			'benefits_image_alt'=> 'Patient consultation for hair transplant repair',
+			'benefits_list'     => array(
+				'Correct Unsatisfactory Work',
+				'More Aesthetically Pleasing Result',
+				'Boosted Confidence',
+				'Customized Solutions',
+			),
+			'faqs'              => array(
+				array(
+					'q' => 'Why might someone need a Hair Transplant Repair?',
+					'a' => 'Undesirable results can include unnatural looking hairlines, insufficient coverage, poor growth, and visible scarring.',
+				),
+				array(
+					'q' => 'How long after an unsatisfactory hair transplant can I get a repair?',
+					'a' => 'It is recommended to wait at least 12 months after the initial procedure to allow full healing and assess the final results.',
+				),
+				array(
+					'q' => 'Can a bad hairline design be fixed?',
+					'a' => 'Yes, Dr. Mollura is renowned for his natural-looking hairline design.',
+				),
+				array(
+					'q' => 'Will a hair transplant repair require another donor area?',
+					'a' => 'In most cases, additional donor hair is needed.',
+				),
+				array(
+					'q' => 'Can scars from previous hair transplants be fixed?',
+					'a' => 'Yes, scars from FUT procedures can often be improved with new follicular unit grafts or using scar revision techniques.',
+				),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
