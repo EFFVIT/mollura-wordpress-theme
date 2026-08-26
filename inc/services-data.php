@@ -62,6 +62,56 @@ function mollura_service_data( $slug ) {
 			),
 		),
 
+		'fut-hair-transplant' => array(
+			'banner_title'      => 'FUT Hair Transplant',
+			'banner_image'      => 'services/fut-hair-transplant-banner.png',
+			'intro_eyebrow'     => 'FUT Hair Transplant',
+			'intro_heading'     => 'What is an FUT Hair Transplant?',
+			'intro_image'       => 'services/fut-hair-transplant-intro.png',
+			'intro_image_alt'   => 'Diagram of the FUT hair transplant process: strip harvesting, strip slivering, grafts dissection, and grafts insertion',
+			'intro_body'        => array(
+				'In Follicular Unit Transplantation (FUT) procedures, commonly referred to as the Strip Method, a strip of hair-bearing tissue is removed from the donor area. The donor area is then closed, leaving a thin, linear scar. The strip is dissected under high-powered microscopes to separate naturally occurring follicular units and then transplanted into the areas of need.',
+			),
+			'benefits_eyebrow'  => 'Benefits',
+			'benefits_heading'  => 'Why Choose an FUT Hair Transplant?',
+			'benefits_image'    => 'services/fut-hair-transplant-benefits.png',
+			'benefits_image_alt'=> 'Surgeon marking the donor area before an FUT hair transplant procedure',
+			'benefits_list'     => array(
+				'Single-Day Procedure',
+				'Long-Lasting Results and Natural Appearance',
+				'No Need to Shave Donor Area',
+				'Same Linear Scar Can Be Used For Multiple Procedures',
+				'Donor Area Maintains Original Density',
+				'More Affordable Option',
+			),
+			'faqs'              => array(
+				array(
+					'q' => 'How is FUT different from FUE Hair Transplants',
+					'a' => 'The primary difference is the method of extracting hair follicles. FUT involves harvesting a strip of scalp, leaving a linear scar, whereas FUE extracts individual follicles, leaving tiny, dot-like scars.',
+				),
+				array(
+					'q' => 'Am I a good candidate for a FUT Hair Transplant?',
+					'a' => 'FUT is ideal for patients with significant hair loss who require many grafts and have sufficient donor hair in the back of the scalp. It is also suitable for those looking for the most cost-effective solution.',
+				),
+				array(
+					'q' => 'What is the recovery time after a FUT Hair Transplant',
+					'a' => 'Recovery may take slightly longer than with FUE due to the linear incision in the donor area. Stitches are typically removed after 10-14 days, and most patients resume normal activities within 1-2 weeks.',
+				),
+				array(
+					'q' => 'Will the transplanted hair look natural?',
+					'a' => 'Yes, FUT transplants produce natural-looking results. The hairline design, density, and placement of follicles are carefully planned to match your natural growth pattern.',
+				),
+				array(
+					'q' => 'Is FUT a permanent solution for hair loss?',
+					'a' => 'FUT transplants use donor hair that is naturally resistant to DHT, the hormone associated with hair loss, which is why results are designed to be long-lasting.',
+				),
+				array(
+					'q' => 'What is the cost of an FUT Hair Transplant',
+					'a' => 'The transplant cost will be determined during your consultation. The price can range based on the amount of hair (grafts) the patient needs to achieve the desired results. Financing options are available.',
+				),
+			),
+		),
+
 	);
 
 	return isset( $services[ $slug ] ) ? $services[ $slug ] : null;
