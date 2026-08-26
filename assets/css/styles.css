@@ -541,8 +541,12 @@ iframe:focus-visible {
 .mol-med-card { display: flex; align-items: center; gap: var(--space-5); }
 .mol-med-card img { width: 90px; height: auto; flex-shrink: 0; border-radius: var(--radius-card); }
 .mol-med-card h3 { margin-bottom: var(--space-2); }
+
+.mol-split--33-66 { grid-template-columns: 1fr 2fr; }
+
 @media (max-width: 860px) {
   .mol-med-grid { grid-template-columns: 1fr; }
+  .mol-split--33-66 { grid-template-columns: 1fr; }
 }
 
 .mol-feature-list {
