@@ -31,10 +31,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<a class="mol-btn mol-btn--outline-dark" href="tel:+15163543876">Call 516-354-3876</a>
 			</div>
 			<nav class="mol-404__links" aria-label="Popular pages">
-				<a href="https://mollurahairtransplant.com/hair-restoration-services/">Hair Restoration Services</a>
-				<a href="https://mollurahairtransplant.com/male-hair-transplant-before-and-after/">Before &amp; After Gallery</a>
-				<a href="https://mollurahairtransplant.com/about-us/">About Us</a>
-				<a href="https://mollurahairtransplant.com/contact/">Contact Us</a>
+				<a href="/hair-restoration-services/">Hair Restoration Services</a>
+				<a href="/male-hair-transplant-before-and-after/">Before &amp; After Gallery</a>
+				<a href="/about-us/">About Us</a>
+				<a href="/contact/">Contact Us</a>
 			</nav>
 		</div>
 	</section>

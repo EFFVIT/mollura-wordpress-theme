@@ -22,7 +22,7 @@ $img = get_template_directory_uri() . '/assets/images/services/';
 		'image'     => $img . 'topical-hair-loss-serum-banner.png',
 		'image_alt' => '',
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 
@@ -74,7 +74,7 @@ $img = get_template_directory_uri() . '/assets/images/services/';
 			<h3 class="mol-h3 mol-mt-8">How and When should the Topical Hair Loss Serum be applied?</h3>
 			<p>Our Topical Hair Loss Serum contains 120ml of medication, lasting about 70-90 days when used as directed. The doctor will recommend dosage based on each patient&rsquo;s health evaluation. Dosage can change based on the individual patient&rsquo;s needs. Generally, Dr. Mollura recommends applying the medication 2X per day using the provided dropper. The dropper contains clear volume lines to ensure proper dosage. The serum should be applied and massaged on the scalp evenly to the areas of need and allowed to absorb for at least 3 hours prior to showering or any physical activity that will cause you to sweat.</p>
 
-			<a class="mol-btn mol-btn--outline-dark mol-mt-6" href="https://mollurahairtransplant.com/contact/">Contact Us</a>
+			<a class="mol-btn mol-btn--outline-dark mol-mt-6" href="/contact/">Contact Us</a>
 		</div>
 	</section>
 

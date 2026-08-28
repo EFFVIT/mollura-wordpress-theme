@@ -67,7 +67,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 			<div class="mol-cherry__content">
 				<h2 class="mol-cherry__title">Flexible Payment Options with Cherry</h2>
 				<p class="mol-cherry__body">We&rsquo;ve partnered with Cherry to make hair restoration more affordable. Get the treatment you want now and pay over time with simple monthly payments.</p>
-				<a class="mol-btn mol-btn--primary" href="https://mollurahairtransplant.com/financing/">Learn More About Financing</a>
+				<a class="mol-btn mol-btn--primary" href="/financing/">Learn More About Financing</a>
 			</div>
 		</div>
 	</section>
@@ -79,7 +79,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 			<h2 class="mol-h2">Services</h2>
 			<div class="mol-services__grid">
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/fue-hair-transplant/">
+				<a class="mol-card mol-card--service" href="/fue-hair-transplant/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 2 4 4"/><path d="m17 7 3-3"/><path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5"/><path d="m9 11 4 4"/><path d="m5 19-3 3"/><path d="m14 4 6 6"/></svg>
@@ -92,7 +92,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 				</a>
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/laser-hair-therapy-device/">
+				<a class="mol-card mol-card--service" href="/laser-hair-therapy-device/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.914 4a1.5 1.5 0 0 0-2.474-1.561l-9 9A1.5 1.5 0 0 0 5.5 14h4.002a.5.5 0 0 1 .471.666L8.086 20a1.5 1.5 0 0 0 2.475 1.56l9-9A1.5 1.5 0 0 0 18.5 10h-3.997a.5.5 0 0 1-.472-.667z"/></svg>
@@ -105,7 +105,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 				</a>
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/eyebrow-hair-restoration/">
+				<a class="mol-card mol-card--service" href="/eyebrow-hair-restoration/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
@@ -118,7 +118,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 				</a>
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/topical-hair-loss-serum/">
+				<a class="mol-card mol-card--service" href="/topical-hair-loss-serum/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
@@ -131,7 +131,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 				</a>
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/female-hair-loss-treatment/">
+				<a class="mol-card mol-card--service" href="/female-hair-loss-treatment/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -144,7 +144,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</div>
 				</a>
 
-				<a class="mol-card mol-card--service" href="https://mollurahairtransplant.com/non-surgical-hair-restoration/">
+				<a class="mol-card mol-card--service" href="/non-surgical-hair-restoration/">
 					<div class="mol-card__top">
 						<span class="mol-icon-circle" aria-hidden="true">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
@@ -346,7 +346,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					</li>
 				</ul>
 
-				<a class="mol-btn mol-btn--primary" href="https://mollurahairtransplant.com/about-us/">Learn More</a>
+				<a class="mol-btn mol-btn--primary" href="/about-us/">Learn More</a>
 			</div>
 			<div class="mol-why__image">
 				<img src="https://mollurahairtransplant.com/wp-content/uploads/2025/01/Rectangle-129.png" alt="Professional Image">
@@ -384,7 +384,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 						<span>Artistic Hairline Design</span>
 					</li>
 				</ul>
-				<a class="mol-btn mol-btn--primary" href="https://mollurahairtransplant.com/meet-the-team/">Learn More</a>
+				<a class="mol-btn mol-btn--primary" href="/meet-the-team/">Learn More</a>
 			</div>
 		</div>
 	</section>
@@ -439,7 +439,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					<div class="mol-comparison__body">
 						<h3>FUT</h3>
 						<p>Follicular Unit Transplantation is the process of removing a strip from the donor area to prepare and replace follicular units.</p>
-						<a class="mol-btn mol-btn--outline-dark" href="https://mollurahairtransplant.com/fut-hair-transplant/">More Info</a>
+						<a class="mol-btn mol-btn--outline-dark" href="/fut-hair-transplant/">More Info</a>
 					</div>
 				</div>
 				<div class="mol-card mol-comparison__card">
@@ -449,7 +449,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 					<div class="mol-comparison__body">
 						<h3>FUE</h3>
 						<p>Follicular Unit Extraction is the method of harvesting individual follicular units from across your donor area for transplantation.</p>
-						<a class="mol-btn mol-btn--outline-dark" href="https://mollurahairtransplant.com/fue-hair-transplant/">More Info</a>
+						<a class="mol-btn mol-btn--outline-dark" href="/fue-hair-transplant/">More Info</a>
 					</div>
 				</div>
 			</div>

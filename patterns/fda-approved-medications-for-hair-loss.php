@@ -20,7 +20,7 @@ $img = get_template_directory_uri() . '/assets/images/services/';
 		'image'     => $img . 'fda-approved-medications-banner.png',
 		'image_alt' => '',
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 

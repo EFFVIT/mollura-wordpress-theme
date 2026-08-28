@@ -24,7 +24,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 		'image'     => $img . $mollura_gallery['banner_image'],
 		'image_alt' => $mollura_gallery['banner_title'],
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 

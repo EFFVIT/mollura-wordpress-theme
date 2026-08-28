@@ -18,7 +18,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 		'image'     => $img . 'learn/hairline-design-banner.png',
 		'image_alt' => 'Hairline Design',
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 

@@ -48,7 +48,7 @@ function mollura_legal_data( $slug ) {
 <p>We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.</p>
 <p>The date at the top of this Cookie Policy indicates when it was last updated.</p>
 <h3 class="mol-h3">Where can I get further information?</h3>
-<p>For more information on our data policies, see our <a href="https://mollurahairtransplant.com/privacy-policy/">Privacy Policy</a>.</p>
+<p>For more information on our data policies, see our <a href="/privacy-policy/">Privacy Policy</a>.</p>
 <p>If you have any questions about our use of cookies or other technologies, please email us at <a href="mailto:Hairsurg@mollurahairtransplant.com">Hairsurg@mollurahairtransplant.com</a><br>or by post to:</p>
 <p>Address: 393 Franklin Avenue, Suite 105, Franklin Square, NY 11010</p>
 MOLBODY

@@ -19,7 +19,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 		'image'     => $img . 'services-hub-banner.png',
 		'image_alt' => '',
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 
@@ -48,7 +48,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 				</span>
 				<h3>Follicular Unit Transplantation (FUT)</h3>
 				<p>In a Follicular Unit Transplantation (FUT) Dr. Mollura removes a strip of tissue from the donor area. From this he creates follicular units &mdash; tiny grafts of 1, 2, or 3 individual hairs. The grafts are then transplanted via tiny incisions, called recipient sites, to create the new hairline according to the patient&rsquo;s individualized hair restoration plan.</p>
-				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/fut-hair-transplant/">Learn More</a>
+				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="/fut-hair-transplant/">Learn More</a>
 			</div>
 
 			<div class="mol-hub-card">
@@ -57,7 +57,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 				</span>
 				<h3>Follicular Unit Extraction (FUE)</h3>
 				<p>Follicular Unit Extraction (FUE) is an alternative method of extracting donor hair for a follicular unit hair transplant. In an FUE procedure, a tiny incision is made in the skin around each follicular unit, separating it from the surrounding tissue. Each individual unit is then extracted directly from the scalp.</p>
-				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/fue-hair-transplant/">Learn More</a>
+				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="/fue-hair-transplant/">Learn More</a>
 			</div>
 
 			<div class="mol-hub-card">
@@ -67,7 +67,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 				<h3>Medical Hair Loss Therapy</h3>
 				<!-- Condensed summary, NOT verbatim from the live site -- authored to match card length at explicit user request, needs compliance review before launch. See project memory. -->
 				<p>Today&rsquo;s advances in pharmacology and laser technology offer several options to maintain and even regrow hair. Propecia&reg; (men only) and Rogaine are FDA-approved medications, and laser hair therapy is a safe, effective treatment for men and women that can be used at home or in-office, alone or alongside surgery.</p>
-				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="https://mollurahairtransplant.com/prp-therapy/">Learn More</a>
+				<a class="mol-btn mol-btn--outline-dark mol-hub-card__cta" href="/prp-therapy/">Learn More</a>
 			</div>
 
 		</div>

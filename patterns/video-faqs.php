@@ -14,15 +14,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 $img = get_template_directory_uri() . '/assets/images/';
 
 $mollura_videos = array(
-	array( 'image' => 'learn/video-faq-1.jpg', 'title' => 'Hair Transplant Recovery Time', 'duration' => '00:19', 'href' => 'https://mollurahairtransplant.com/video/hair-transplant-recovery-time/' ),
-	array( 'image' => 'learn/video-faq-2.jpg', 'title' => 'Will A Hair Transplant Look Natural?', 'duration' => '00:19', 'href' => 'https://mollurahairtransplant.com/video/will-a-hair-transplant-look-natural/' ),
-	array( 'image' => 'learn/video-faq-3.jpg', 'title' => 'The Artistic Aspect of Hair Restoration', 'duration' => '00:44', 'href' => 'https://mollurahairtransplant.com/video/the-artistic-aspect-of-hair-restoration/' ),
-	array( 'image' => 'learn/video-faq-4.jpg', 'title' => 'Non-Surgical Treatments', 'duration' => '00:46', 'href' => 'https://mollurahairtransplant.com/video/non-surgical-treatments/' ),
-	array( 'image' => 'learn/video-faq-5.jpg', 'title' => 'What Is Traction Alopecia?', 'duration' => '00:51', 'href' => 'https://mollurahairtransplant.com/video/what-is-traction-alopecia/' ),
-	array( 'image' => 'learn/video-faq-6.jpg', 'title' => 'THE HIDDEN RISKS OF TURKEY HAIR TRANSPLANTS', 'duration' => '02:00', 'href' => 'https://mollurahairtransplant.com/video/the-hidden-risks-of-turkey-hair-transplants/' ),
-	array( 'image' => 'learn/video-faq-7.jpg', 'title' => 'Is a hair transplant permanent?', 'duration' => '01:22', 'href' => 'https://mollurahairtransplant.com/video/is-a-hair-transplant-permanent/' ),
-	array( 'image' => 'learn/video-faq-8.jpg', 'title' => 'Hair Transplants VS Preventive Hair Loss Therapy', 'duration' => '00:36', 'href' => 'https://mollurahairtransplant.com/video/hair-transplants-vs-preventive-hair-loss-therapy/' ),
-	array( 'image' => 'learn/video-faq-9.jpg', 'title' => 'Are Hair Transplant Procedures Painful?', 'duration' => '00:19', 'href' => 'https://mollurahairtransplant.com/video/are-hair-transplant-procedures-painful/' ),
+	array( 'image' => 'learn/video-faq-1.jpg', 'title' => 'Hair Transplant Recovery Time', 'duration' => '00:19', 'href' => '/video/hair-transplant-recovery-time/' ),
+	array( 'image' => 'learn/video-faq-2.jpg', 'title' => 'Will A Hair Transplant Look Natural?', 'duration' => '00:19', 'href' => '/video/will-a-hair-transplant-look-natural/' ),
+	array( 'image' => 'learn/video-faq-3.jpg', 'title' => 'The Artistic Aspect of Hair Restoration', 'duration' => '00:44', 'href' => '/video/the-artistic-aspect-of-hair-restoration/' ),
+	array( 'image' => 'learn/video-faq-4.jpg', 'title' => 'Non-Surgical Treatments', 'duration' => '00:46', 'href' => '/video/non-surgical-treatments/' ),
+	array( 'image' => 'learn/video-faq-5.jpg', 'title' => 'What Is Traction Alopecia?', 'duration' => '00:51', 'href' => '/video/what-is-traction-alopecia/' ),
+	array( 'image' => 'learn/video-faq-6.jpg', 'title' => 'THE HIDDEN RISKS OF TURKEY HAIR TRANSPLANTS', 'duration' => '02:00', 'href' => '/video/the-hidden-risks-of-turkey-hair-transplants/' ),
+	array( 'image' => 'learn/video-faq-7.jpg', 'title' => 'Is a hair transplant permanent?', 'duration' => '01:22', 'href' => '/video/is-a-hair-transplant-permanent/' ),
+	array( 'image' => 'learn/video-faq-8.jpg', 'title' => 'Hair Transplants VS Preventive Hair Loss Therapy', 'duration' => '00:36', 'href' => '/video/hair-transplants-vs-preventive-hair-loss-therapy/' ),
+	array( 'image' => 'learn/video-faq-9.jpg', 'title' => 'Are Hair Transplant Procedures Painful?', 'duration' => '00:19', 'href' => '/video/are-hair-transplant-procedures-painful/' ),
 );
 ?>
 <main id="main">

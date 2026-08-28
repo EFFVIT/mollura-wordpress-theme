@@ -35,7 +35,7 @@ $mollura_reviews = array(
 		'image'     => $img . 'testimonials-banner.png',
 		'image_alt' => '',
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 

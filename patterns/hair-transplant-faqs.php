@@ -23,7 +23,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 		'image'     => $img . 'learn/hair-transplant-faqs-banner.png',
 		'image_alt' => "Hair Transplant FAQ's",
 		'cta_text'  => 'Contact Us',
-		'cta_href'  => 'https://mollurahairtransplant.com/contact/',
+		'cta_href'  => '/contact/',
 	) );
 	?>
 
