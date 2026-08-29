@@ -47,11 +47,37 @@ $mollura_nav = mollura_primary_nav();
 							<button class="mol-nav__caret" type="button" aria-label="Expand <?php echo esc_attr( $item['label'] ); ?> submenu" aria-expanded="false">
 								<svg width="12" height="8" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l5 5 5-5"/></svg>
 							</button>
-							<ul class="mol-nav__submenu">
-								<?php foreach ( $item['children'] as $child ) : ?>
-									<li><a href="<?php echo esc_url( $child['href'] ); ?>"><?php echo esc_html( $child['label'] ); ?></a></li>
-								<?php endforeach; ?>
-							</ul>
+							<?php
+							// 'simple' items are just a flat list of children -- normalize into
+							// the same "groups of items" shape as 'list' so rendering below
+							// doesn't need two separate branches.
+							$mollura_mega_groups = ( 'list' === $item['type'] )
+								? $item['children']
+								: array( array( 'heading' => null, 'items' => $item['children'] ) );
+							?>
+							<div class="mol-mega-hitarea">
+								<div class="mol-mega mol-mega--<?php echo esc_attr( $item['type'] ); ?>">
+									<?php foreach ( $mollura_mega_groups as $mollura_group ) : ?>
+										<?php if ( 'list' === $item['type'] ) : ?><div class="mol-mega-col"><?php endif; ?>
+											<?php if ( ! empty( $mollura_group['heading'] ) ) : ?>
+												<span class="mol-mega-heading"><?php echo esc_html( $mollura_group['heading'] ); ?></span>
+											<?php endif; ?>
+											<ul class="mol-mega-rows">
+												<?php foreach ( $mollura_group['items'] as $child ) : ?>
+													<li>
+														<a class="mol-mega-row" href="<?php echo esc_url( $child['href'] ); ?>">
+															<span class="mol-icon-circle mol-icon-circle--nav" aria-hidden="true">
+																<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><?php echo $child['icon']; /* phpcs:ignore -- trusted static SVG markup, not user input */ ?></svg>
+															</span>
+															<?php echo esc_html( $child['label'] ); ?>
+														</a>
+													</li>
+												<?php endforeach; ?>
+											</ul>
+										<?php if ( 'list' === $item['type'] ) : ?></div><?php endif; ?>
+									<?php endforeach; ?>
+								</div>
+							</div>
 						<?php endif; ?>
 					</li>
 				<?php endforeach; ?>

@@ -289,27 +289,75 @@ iframe:focus-visible {
 .mol-nav__link:hover { color: var(--color-secondary); }
 .mol-nav__caret { display: none; }
 
-.mol-nav__submenu {
+/* ---------- Mega-menu dropdowns ---------- */
+/* Outer hit area: sized flush against the trigger, with the visual gap moved
+   into real padding-top so it stays part of the hoverable box (a plain gap
+   between trigger and panel breaks :hover the instant the cursor crosses it). */
+.mol-mega-hitarea {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 280px;
-  background: var(--color-bg);
-  border-radius: var(--radius-card);
-  padding: var(--space-2) 0;
+  padding-top: 16px;
   z-index: 50;
 }
-.mol-nav__item--has-children:hover .mol-nav__submenu,
-.mol-nav__item--has-children:focus-within .mol-nav__submenu {
+.mol-nav__item--has-children:hover .mol-mega-hitarea,
+.mol-nav__item--has-children:focus-within .mol-mega-hitarea {
   display: block;
 }
-.mol-nav__submenu li a {
+/* Inner visible panel: left-aligned to its trigger, not centered — a centered
+   wide panel runs off-screen once the trigger sits near the viewport edge. */
+.mol-mega {
+  background: var(--color-bg);
+  border: var(--border-hairline) solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: 0 12px 32px rgba(4, 67, 93, 0.16);
+  padding: var(--space-6);
+}
+.mol-mega--list {
+  display: flex;
+  gap: var(--space-10);
+  min-width: 560px;
+}
+.mol-mega-col { min-width: 0; }
+.mol-mega--simple { min-width: 260px; }
+.mol-mega-heading {
   display: block;
-  padding: var(--space-2) var(--space-5);
+  font-weight: 700;
   font-size: var(--text-small);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-dark);
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
+  border-bottom: var(--border-hairline) solid var(--color-border);
 }
-.mol-nav__submenu li a:hover { background: var(--color-muted); color: var(--color-secondary); }
+.mol-mega-rows { display: flex; flex-direction: column; gap: var(--space-1); }
+.mol-mega-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2);
+  border-radius: var(--radius-input);
+  font-size: var(--text-small);
+  white-space: nowrap;
+}
+.mol-mega-row:hover,
+.mol-mega-row:focus-visible {
+  background: var(--color-muted);
+  color: var(--color-secondary);
+}
+.mol-icon-circle--nav {
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  background: var(--color-secondary);
+  transition: background var(--transition-fast);
+}
+.mol-mega-row:hover .mol-icon-circle--nav,
+.mol-mega-row:focus-visible .mol-icon-circle--nav {
+  background: var(--color-primary);
+}
 
 .mol-nav__cta { min-height: 44px; padding: 0 var(--space-6); }
 
@@ -1479,12 +1527,23 @@ iframe:focus-visible {
     width: 44px;
     height: 44px;
   }
-  .mol-nav__submenu {
+  /* Mobile: no hover mega-panel — the caret expands a same-content inline
+     accordion (chevron toggle, non-exclusive) instead of the desktop's
+     floating hover panel; touch has no hover to trigger a flyout with. */
+  .mol-mega-hitarea {
+    display: none !important;
     position: static;
-    display: none;
-    padding-left: var(--space-4);
+    padding-top: 0;
   }
-  .mol-nav__item.is-open .mol-nav__submenu { display: block; }
+  .mol-nav__item.is-open .mol-mega-hitarea { display: block !important; }
+  .mol-mega {
+    border: 0;
+    box-shadow: none;
+    padding: 0 0 var(--space-3) var(--space-4);
+  }
+  .mol-mega--list { flex-direction: column; gap: var(--space-5); min-width: 0; }
+  .mol-mega--simple { min-width: 0; }
+  .mol-mega-row { white-space: normal; }
   .mol-nav__cta { margin-top: var(--space-6); width: 100%; }
 
   .mol-info-bar__grid { grid-template-columns: 1fr; text-align: center; gap: var(--space-6); }
