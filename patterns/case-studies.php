@@ -3,11 +3,10 @@
  * "Case Studies" index page. Copy, titles, and images ported verbatim
  * from the live site (mollurahairtransplant.com/case-studies/).
  *
- * Each card's "Read More" link points to the corresponding live-site
- * case-study article (mollurahairtransplant.com/case-study/{slug}/) --
- * those individual long-form case-study articles are a separate content
- * type outside this rebuild's page scope, so they are linked out to
- * rather than rebuilt locally.
+ * Each card's "Read More" link points to the corresponding local
+ * case-study article (/case-study/{slug}/), rendered via the shared
+ * "Case Study" page template -- see templates/case-study.php,
+ * patterns/case-study-detail.php, and inc/case-studies-data.php.
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
