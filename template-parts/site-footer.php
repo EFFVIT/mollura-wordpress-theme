@@ -1,17 +1,30 @@
 <?php
 /**
- * Site footer: brand column, 3 nav columns, legal/disclaimer bar.
- * Ported verbatim from the approved static homepage rebuild.
+ * Site footer: logo + one centered block per office, 3 nav columns,
+ * legal/disclaimer bar. Location data (3 offices) comes from
+ * mollura_locations() -- see inc/locations-data.php, shared with the
+ * topbar in site-header.php.
  */
+$mollura_office_locations = mollura_locations();
 ?>
 <footer class="mol-footer">
-	<div class="mol-container mol-footer__grid">
-		<div class="mol-footer__brand">
-			<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo-white.png' ); ?>" alt="Mollura Medical Hair Restoration" width="152" height="118">
-			<p>393 Franklin Avenue Suite 105<br>Franklin Square, NY 11010</p>
-			<a href="tel:+15163543876">516-354-3876</a>
+	<div class="mol-container mol-footer__top">
+		<img class="mol-footer__logo" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo-white.png' ); ?>" alt="Mollura Medical Hair Restoration" width="152" height="118">
+		<div class="mol-footer__locations">
+			<?php foreach ( $mollura_office_locations as $location ) : ?>
+				<div class="mol-footer__location">
+					<h3 class="mol-footer__location-name"><?php echo esc_html( $location['name'] ); ?></h3>
+					<p class="mol-footer__location-address">
+						<?php echo esc_html( $location['address_line1'] ); ?><br>
+						<?php echo esc_html( $location['address_line2'] ); ?>
+					</p>
+					<a class="mol-footer__location-phone" href="<?php echo esc_url( 'tel:' . $location['phone_tel'] ); ?>"><?php echo esc_html( $location['phone_display'] ); ?></a>
+				</div>
+			<?php endforeach; ?>
 		</div>
+	</div>
 
+	<div class="mol-container mol-footer__grid">
 		<nav class="mol-footer__col" aria-label="Services">
 			<h4>Services</h4>
 			<ul>
@@ -51,6 +64,7 @@
 			&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> Mollura Medical Hair Restoration |
 			<a href="<?php echo esc_url( home_url( '/cookie-policy' ) ); ?>">Cookie Policy</a> |
 			<a href="<?php echo esc_url( home_url( '/privacy-policy' ) ); ?>">Privacy Policy</a> |
+			<a href="/terms-of-service/">Terms of Service</a> |
 			<a href="/medical-disclaimer/">Medical Disclaimer</a> |
 			<a href="/sitemap/">Sitemap</a>
 		</p>

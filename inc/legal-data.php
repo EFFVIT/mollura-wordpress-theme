@@ -1,10 +1,12 @@
 <?php
 /**
  * Data for the legal pages (Cookie Policy, Privacy Policy, Medical
- * Disclaimer). Body copy ported verbatim from the live site, stored as
- * raw trusted markup (nowdoc) and rendered as-is by patterns/legal.php
- * -- no per-page pattern files needed, same data-driven mechanism as
- * Service Detail / Gallery.
+ * Disclaimer, Terms of Service). Cookie Policy / Privacy Policy / Medical
+ * Disclaimer copy is ported verbatim from the live site; Terms of Service
+ * is newly authored generic boilerplate (no live equivalent existed).
+ * Stored as raw trusted markup (nowdoc) and rendered as-is by
+ * patterns/legal.php -- no per-page pattern files needed, same
+ * data-driven mechanism as Service Detail / Gallery.
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -131,6 +133,33 @@ MOLBODY
 <p>Mollura Medical Hair Restoration<br>393 Franklin Avenue, Suite 105<br>Franklin Square, NY 11010<br>United States&nbsp;&nbsp;&nbsp;<br><a href="tel:5163543876">516-354-3876</a></p>
 <h2 class="mol-h2">PERSONAL DATA MANAGEMENT</h2>
 <p>According to the Privacy Policy, you agree to share your personal data with our service. However, you still have the right to update, transfer or delete it from us at any time. If you need further management for your data, please contact us at Hairsurg@mollurahairtransplant.com.&nbsp;</p>
+MOLBODY
+		),
+		'terms-of-service' => array(
+			'banner_title' => 'Terms of Service',
+			'banner_image' => 'legal-banner-1.png',
+			'body'         => <<<'MOLBODY'
+<p>These Terms of Service ("Terms") govern your access to and use of the Mollura Medical Hair Restoration website located at <a href="https://www.mollurahairtransplant.com">https://www.mollurahairtransplant.com</a> (the "Website"), operated by Mollura Medical Hair Restoration ("we", "us", or "our"). By accessing or using the Website, you agree to be bound by these Terms. If you do not agree, please discontinue use of the Website.</p>
+<span class="mol-eyebrow">TERMS OF SERVICE</span>
+<h3 class="mol-h3">1. Use of the Website</h3>
+<p>The Website is provided to give you general information about our practice, our team, and the hair restoration services we offer. You agree to use the Website only for lawful purposes and in a manner that does not infringe the rights of, restrict, or inhibit anyone else's use of the Website.</p>
+<h3 class="mol-h3">2. Not Medical Advice</h3>
+<p>Content on the Website, including text, images, and videos, is provided for general informational purposes only and does not constitute medical advice, diagnosis, or treatment. It is not a substitute for an in-person evaluation and consultation with a licensed physician. See our <a href="/medical-disclaimer/">Medical Disclaimer</a> for more detail.</p>
+<h3 class="mol-h3">3. Scheduling and Consultations</h3>
+<p>Requests submitted through the Website, including consultation and contact forms, are inquiries only and do not guarantee an appointment, a specific treatment plan, or a specific outcome. All treatment recommendations are made individually, following an in-person or virtual consultation with our clinical team.</p>
+<h3 class="mol-h3">4. Intellectual Property</h3>
+<p>All text, graphics, logos, images, and other material on the Website are the property of Mollura Medical Hair Restoration or its licensors and are protected by applicable intellectual property laws. You may view and print pages from the Website for your own personal, non-commercial use, but may not reproduce, distribute, or otherwise use any content without our prior written consent.</p>
+<h3 class="mol-h3">5. Third-Party Links</h3>
+<p>The Website may contain links to third-party websites, including scheduling widgets and social media platforms. We do not control and are not responsible for the content, privacy practices, or availability of those third-party sites.</p>
+<h3 class="mol-h3">6. Limitation of Liability</h3>
+<p>The Website and its content are provided on an "as is" and "as available" basis, without warranties of any kind, express or implied. To the fullest extent permitted by law, Mollura Medical Hair Restoration will not be liable for any damages arising from your use of, or inability to use, the Website.</p>
+<h3 class="mol-h3">7. Changes to These Terms</h3>
+<p>We may update these Terms from time to time. Any changes will be posted on this page with an updated effective date. Your continued use of the Website after changes are posted constitutes acceptance of the revised Terms.</p>
+<h3 class="mol-h3">8. Governing Law</h3>
+<p>These Terms are governed by the laws of the State of New York, without regard to its conflict of law principles.</p>
+<h3 class="mol-h3">9. Contact Us</h3>
+<p>If you have questions about these Terms, please email us at <a href="mailto:Hairsurg@mollurahairtransplant.com">Hairsurg@mollurahairtransplant.com</a> or by post to:</p>
+<p>Mollura Medical Hair Restoration<br>393 Franklin Avenue, Suite 105<br>Franklin Square, NY 11010<br><a href="tel:5163543876">516-354-3876</a></p>
 MOLBODY
 		),
 		'medical-disclaimer' => array(
