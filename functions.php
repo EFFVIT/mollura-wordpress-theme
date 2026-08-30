@@ -13,6 +13,7 @@ define( 'MOLLURA_THEME_VERSION', '1.0.0' );
 require get_template_directory() . '/inc/services-data.php';
 require get_template_directory() . '/inc/galleries-data.php';
 require get_template_directory() . '/inc/legal-data.php';
+require get_template_directory() . '/inc/locations-data.php';
 
 /**
  * Cache-bust every theme-owned asset off its real file mtime, so an edit here
