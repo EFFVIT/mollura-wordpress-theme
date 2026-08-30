@@ -4,7 +4,13 @@
 /* ---------- Reset / base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-html, body { overflow-x: hidden; max-width: 100%; }
+/* overflow-x: clip, not hidden -- setting only one axis to a non-visible
+   value makes the browser compute the other axis as 'auto' too (CSS
+   overflow spec fixup), which breaks position:sticky on any descendant
+   (the header/nav). `clip` doesn't trigger that fixup, so it blocks
+   horizontal overflow without silently turning html/body into a second
+   scroll container that defeats the sticky header. */
+html, body { overflow-x: clip; max-width: 100%; }
 body {
   margin: 0;
   font-family: var(--font-body);

@@ -37,8 +37,8 @@
 		<nav class="mol-footer__col" aria-label="Start Your Journey">
 			<h4>Start Your Journey</h4>
 			<ul>
-				<li><a href="#book-consultation">Contact Us</a></li>
-				<li><a href="#book-consultation">Book A Consult</a></li>
+				<li><a href="/contact/">Contact Us</a></li>
+				<li><a href="/#book-consultation">Book A Consult</a></li>
 				<li><a href="/directions/">Directions</a></li>
 				<li><a href="/financing/">Financing</a></li>
 				<li><a href="tel:+15163543876">Call Our Office</a></li>

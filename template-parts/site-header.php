@@ -82,7 +82,7 @@ $mollura_nav = mollura_primary_nav();
 					</li>
 				<?php endforeach; ?>
 			</ul>
-			<a class="mol-btn mol-btn--primary mol-nav__cta" href="#book-consultation">Book a Consultation</a>
+			<a class="mol-btn mol-btn--primary mol-nav__cta" href="/#book-consultation">Book a Consultation</a>
 		</nav>
 	</div>
 </header>
