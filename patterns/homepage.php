@@ -163,139 +163,177 @@ $img = get_template_directory_uri() . '/assets/images/';
 
 	<!-- Before / After -->
 	<section class="mol-results">
-		<div class="mol-container mol-results__grid">
-			<div class="mol-results__text">
+		<div class="mol-container">
+			<div class="mol-results__header">
 				<span class="mol-eyebrow">Real Results</span>
 				<h2 class="mol-h2">Before and After</h2>
 				<p class="mol-results__intro">Seeing is believing. We are proud to show off the great work our doctor and team have done in revitalizing and regrowing hair for our clients. Take a look at some of our past clients and their progress regrowing hair post-treatment.</p>
 			</div>
 
-			<div class="mol-results__media">
-			<div class="mol-ba-slider" role="group" aria-label="Before and after result slider">
-				<div class="mol-ba-slider__viewport">
-				<div class="mol-ba-slider__track">
+			<div class="mol-results__row">
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-compare" data-mol-ba-compare>
-							<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-183.png" alt="After result">
-							<div class="mol-ba-compare__before-wrap">
-								<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-182.png" alt="Before result">
-							</div>
-							<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
-							<div class="mol-ba-compare__handle" aria-hidden="true">
-								<span class="mol-ba-compare__handle-grip">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
-								</span>
-							</div>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
-						</div>
-					</figure>
+				<ul class="mol-results__benefits">
+					<li class="mol-results__benefit">
+						<span class="mol-icon-circle" aria-hidden="true">
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+						</span>
+						<strong>Knowledgeable</strong>
+						<p>With years of experience, our team can help diagnose and treat your hair loss issues.</p>
+					</li>
+					<li class="mol-results__benefit">
+						<span class="mol-icon-circle" aria-hidden="true">
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+						</span>
+						<strong>Bespoke Treatment</strong>
+						<p>Not all hair loss is the same. We create a customized treatment plan for each patient.</p>
+					</li>
+				</ul>
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-compare" data-mol-ba-compare>
-							<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-185.png" alt="After result">
-							<div class="mol-ba-compare__before-wrap">
-								<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-184.png" alt="Before result">
-							</div>
-							<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
-							<div class="mol-ba-compare__handle" aria-hidden="true">
-								<span class="mol-ba-compare__handle-grip">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
-								</span>
-							</div>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
-						</div>
-					</figure>
+				<div class="mol-results__media">
+				<div class="mol-ba-slider mol-ba-slider--circle" role="group" aria-label="Before and after result slider">
+					<div class="mol-ba-slider__viewport">
+					<div class="mol-ba-slider__track">
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-compare" data-mol-ba-compare>
-							<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-187.png" alt="After result">
-							<div class="mol-ba-compare__before-wrap">
-								<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-186.png" alt="Before result">
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-compare mol-ba-compare--circle" data-mol-ba-compare>
+								<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-183.png" alt="After result">
+								<div class="mol-ba-compare__before-wrap">
+									<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-182.png" alt="Before result">
+								</div>
+								<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+								<div class="mol-ba-compare__handle" aria-hidden="true">
+									<span class="mol-ba-compare__handle-grip">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
+									</span>
+								</div>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
 							</div>
-							<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
-							<div class="mol-ba-compare__handle" aria-hidden="true">
-								<span class="mol-ba-compare__handle-grip">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
-								</span>
-							</div>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
-						</div>
-					</figure>
+						</figure>
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-compare" data-mol-ba-compare>
-							<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-189.png" alt="After result">
-							<div class="mol-ba-compare__before-wrap">
-								<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-188.png" alt="Before result">
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-compare mol-ba-compare--circle" data-mol-ba-compare>
+								<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-185.png" alt="After result">
+								<div class="mol-ba-compare__before-wrap">
+									<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-184.png" alt="Before result">
+								</div>
+								<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+								<div class="mol-ba-compare__handle" aria-hidden="true">
+									<span class="mol-ba-compare__handle-grip">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
+									</span>
+								</div>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
 							</div>
-							<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
-							<div class="mol-ba-compare__handle" aria-hidden="true">
-								<span class="mol-ba-compare__handle-grip">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
-								</span>
-							</div>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
-						</div>
-					</figure>
+						</figure>
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-compare" data-mol-ba-compare>
-							<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-191.png" alt="After result">
-							<div class="mol-ba-compare__before-wrap">
-								<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-190.png" alt="Before result">
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-compare mol-ba-compare--circle" data-mol-ba-compare>
+								<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-187.png" alt="After result">
+								<div class="mol-ba-compare__before-wrap">
+									<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-186.png" alt="Before result">
+								</div>
+								<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+								<div class="mol-ba-compare__handle" aria-hidden="true">
+									<span class="mol-ba-compare__handle-grip">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
+									</span>
+								</div>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
 							</div>
-							<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
-							<div class="mol-ba-compare__handle" aria-hidden="true">
-								<span class="mol-ba-compare__handle-grip">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
-								</span>
-							</div>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
-						</div>
-					</figure>
+						</figure>
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-compare" data-mol-ba-compare>
-							<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-193.png" alt="After result">
-							<div class="mol-ba-compare__before-wrap">
-								<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-192.png" alt="Before result">
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-compare mol-ba-compare--circle" data-mol-ba-compare>
+								<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-189.png" alt="After result">
+								<div class="mol-ba-compare__before-wrap">
+									<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-188.png" alt="Before result">
+								</div>
+								<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+								<div class="mol-ba-compare__handle" aria-hidden="true">
+									<span class="mol-ba-compare__handle-grip">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
+									</span>
+								</div>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
 							</div>
-							<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
-							<div class="mol-ba-compare__handle" aria-hidden="true">
-								<span class="mol-ba-compare__handle-grip">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
-								</span>
+						</figure>
+
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-compare mol-ba-compare--circle" data-mol-ba-compare>
+								<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-191.png" alt="After result">
+								<div class="mol-ba-compare__before-wrap">
+									<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-190.png" alt="Before result">
+								</div>
+								<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+								<div class="mol-ba-compare__handle" aria-hidden="true">
+									<span class="mol-ba-compare__handle-grip">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
+									</span>
+								</div>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
 							</div>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
-							<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
-						</div>
-					</figure>
+						</figure>
 
-					<figure class="mol-ba-slider__slide">
-						<div class="mol-ba-placeholder">
-							<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10.5" r="1.5"/><path d="M21 15l-5-5L5 19"/></svg>
-							<p class="mol-ba-placeholder__label">Before &amp; After Photos<br>Coming Soon</p>
-						</div>
-					</figure>
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-compare mol-ba-compare--circle" data-mol-ba-compare>
+								<img class="mol-ba-compare__after" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-193.png" alt="After result">
+								<div class="mol-ba-compare__before-wrap">
+									<img class="mol-ba-compare__before" src="https://mollurahairtransplant.com/wp-content/uploads/2026/01/Rectangle-192.png" alt="Before result">
+								</div>
+								<input type="range" class="mol-ba-compare__range" min="0" max="100" value="50" aria-label="Drag to compare before and after">
+								<div class="mol-ba-compare__handle" aria-hidden="true">
+									<span class="mol-ba-compare__handle-grip">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4"/></svg>
+									</span>
+								</div>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--before">Before</span>
+								<span class="mol-ba-compare__tag mol-ba-compare__tag--after">After</span>
+							</div>
+						</figure>
 
+						<figure class="mol-ba-slider__slide">
+							<div class="mol-ba-placeholder mol-ba-placeholder--circle">
+								<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10.5" r="1.5"/><path d="M21 15l-5-5L5 19"/></svg>
+								<p class="mol-ba-placeholder__label">Before &amp; After Photos<br>Coming Soon</p>
+							</div>
+						</figure>
+
+					</div>
+					</div>
+
+					<button class="mol-ba-slider__arrow mol-ba-slider__arrow--prev" type="button" aria-label="Previous result">
+						<svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1L2 11l10 10"/></svg>
+					</button>
+					<button class="mol-ba-slider__arrow mol-ba-slider__arrow--next" type="button" aria-label="Next result">
+						<svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 1l10 10-10 10"/></svg>
+					</button>
+
+					<div class="mol-ba-slider__dots" role="tablist" aria-label="Result slides"></div>
 				</div>
 				</div>
 
-				<button class="mol-ba-slider__arrow mol-ba-slider__arrow--prev" type="button" aria-label="Previous result">
-					<svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1L2 11l10 10"/></svg>
-				</button>
-				<button class="mol-ba-slider__arrow mol-ba-slider__arrow--next" type="button" aria-label="Next result">
-					<svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 1l10 10-10 10"/></svg>
-				</button>
+				<ul class="mol-results__benefits">
+					<li class="mol-results__benefit">
+						<span class="mol-icon-circle" aria-hidden="true">
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+						</span>
+						<strong>Natural-Looking Results</strong>
+						<p>We strive to make sure your hair growth and hairline design will have you looking your best.</p>
+					</li>
+					<li class="mol-results__benefit">
+						<span class="mol-icon-circle" aria-hidden="true">
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+						</span>
+						<strong>Quick Recovery Time</strong>
+						<p>No one wants to spend weeks recovering. You&rsquo;ll be back at work and life in practically no time.</p>
+					</li>
+				</ul>
 
-				<div class="mol-ba-slider__dots" role="tablist" aria-label="Result slides"></div>
-			</div>
 			</div>
 		</div>
 	</section>
