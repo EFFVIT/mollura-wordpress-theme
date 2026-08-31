@@ -961,14 +961,6 @@ html.mol-js-reveal [data-mol-reveal].is-visible {
   padding-top: var(--space-20);
   padding-bottom: var(--space-20);
 }
-.mol-results__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-16);
-  align-items: center;
-}
-.mol-results__text { order: 2; }
-.mol-results__media { order: 1; }
 .mol-results__intro {
   margin: var(--space-5) 0 0;
 }
@@ -1119,6 +1111,53 @@ html.mol-js-reveal [data-mol-reveal].is-visible {
 .mol-ba-slider__dots button[aria-current="true"] {
   background: var(--color-primary);
   transform: scale(1.2);
+}
+
+/* ---------- Before/After — circle layout with flanking benefit lists ---------- */
+.mol-results__header {
+  max-width: 640px;
+  margin: 0 auto var(--space-12);
+  text-align: center;
+}
+.mol-results__row {
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 420px) 1fr;
+  gap: var(--space-10);
+  align-items: center;
+}
+.mol-results__benefits {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+.mol-results__benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-3);
+}
+.mol-results__benefit .mol-icon-circle { margin: 0; }
+.mol-results__benefit strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: var(--text-h3);
+}
+.mol-results__benefit p { font-size: var(--text-small); }
+
+.mol-ba-slider--circle { max-width: 380px; }
+.mol-ba-slider--circle .mol-ba-slider__viewport { border-radius: 50%; }
+.mol-ba-compare--circle { aspect-ratio: 1 / 1; border-radius: 50%; }
+.mol-ba-placeholder--circle { aspect-ratio: 1 / 1; border-radius: 50%; }
+/* Before/After text tags would clip oddly against a circular mask, so the
+   circle variant relies on the center drag handle alone (matches the
+   reference layout, which has no corner labels either). */
+.mol-ba-compare--circle .mol-ba-compare__tag { display: none; }
+
+@media (max-width: 900px) {
+  .mol-results__row { grid-template-columns: 1fr; }
+  .mol-results__benefits { flex-direction: row; justify-content: center; gap: var(--space-8); }
+  .mol-results__media { order: -1; }
 }
 
 /* ---------- Why Choose Mollura ---------- */
@@ -1702,8 +1741,7 @@ html.mol-js-reveal [data-mol-reveal].is-visible {
    ========================================================== */
 @media (max-width: 1024px) {
   .mol-why__grid,
-  .mol-doctor__grid,
-  .mol-results__grid { grid-template-columns: 1fr; }
+  .mol-doctor__grid { grid-template-columns: 1fr; }
   .mol-doctor__image { max-width: 340px; }
   .mol-cherry__inner { flex-direction: column; text-align: center; }
   .mol-cherry__content { text-align: center; }
