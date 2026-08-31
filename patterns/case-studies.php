@@ -99,7 +99,7 @@ $mollura_case_studies = array(
 	<section class="mol-content-section">
 		<div class="mol-container mol-case-grid">
 			<?php foreach ( $mollura_case_studies as $mollura_case_study ) : ?>
-				<article class="mol-case-card">
+				<article class="mol-case-card" data-mol-reveal>
 					<div class="mol-case-card__media">
 						<img src="<?php echo esc_url( $img . $mollura_case_study['image'] ); ?>" alt="<?php echo esc_attr( wp_strip_all_tags( $mollura_case_study['title'] ) ); ?>">
 					</div>

@@ -129,6 +129,34 @@
     }
   }
 
+  /* ---------- Scroll-in reveal ---------- */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll('[data-mol-reveal]'));
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (revealEls.length && !reduceMotion && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('mol-js-reveal');
+
+    revealEls.forEach(function (el, i) {
+      el.style.setProperty('--reveal-delay', (i % 4) * 80 + 'ms');
+    });
+
+    var revealObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(function (el) { revealObserver.observe(el); });
+
+    // Safety net: guarantee reveal even if the observer never fires for some reason.
+    window.setTimeout(function () {
+      revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+    }, 2000);
+  }
+
   /* ---------- Testimonials wall: "Show more" expand ---------- */
   var testimonialMoreBtns = document.querySelectorAll('.mol-tcard__more:not([aria-hidden="true"])');
   testimonialMoreBtns.forEach(function (btn) {
