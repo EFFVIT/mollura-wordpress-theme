@@ -129,6 +129,67 @@
     }
   }
 
+  /* ---------- Video lightbox ---------- */
+  var videoModal = document.getElementById('mol-video-modal');
+  if (videoModal) {
+    var videoIframe = document.getElementById('mol-video-modal-iframe');
+    var videoTriggers = Array.prototype.slice.call(document.querySelectorAll('[data-mol-video-trigger]'));
+    var videoClosers = videoModal.querySelectorAll('[data-mol-video-modal-close]');
+    var videoPrevBtn = videoModal.querySelector('[data-mol-video-modal-prev]');
+    var videoNextBtn = videoModal.querySelector('[data-mol-video-modal-next]');
+    var videoList = videoTriggers.map(function (trigger) {
+      return {
+        youtubeId: trigger.getAttribute('data-youtube-id'),
+        title: trigger.getAttribute('data-video-title')
+      };
+    });
+    var videoLastFocused = null;
+    var videoCurrentIndex = 0;
+
+    function loadVideo(index) {
+      videoCurrentIndex = (index + videoList.length) % videoList.length;
+      var video = videoList[videoCurrentIndex];
+      videoIframe.src = 'https://www.youtube.com/embed/' + video.youtubeId + '?autoplay=1&rel=0';
+      videoIframe.title = video.title || 'Video';
+    }
+
+    function openVideoModal(index) {
+      videoLastFocused = document.activeElement;
+      loadVideo(index);
+      videoModal.hidden = false;
+      var panel = videoModal.querySelector('.mol-video-modal__panel');
+      if (panel) panel.setAttribute('tabindex', '-1'), panel.focus();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeVideoModal() {
+      videoModal.hidden = true;
+      videoIframe.src = ''; // stop playback
+      document.body.style.overflow = '';
+      if (videoLastFocused) videoLastFocused.focus();
+    }
+
+    videoTriggers.forEach(function (trigger, i) {
+      trigger.addEventListener('click', function () {
+        openVideoModal(i);
+      });
+    });
+
+    videoClosers.forEach(function (el) {
+      el.addEventListener('click', closeVideoModal);
+    });
+
+    if (videoPrevBtn) videoPrevBtn.addEventListener('click', function () { loadVideo(videoCurrentIndex - 1); });
+    if (videoNextBtn) videoNextBtn.addEventListener('click', function () { loadVideo(videoCurrentIndex + 1); });
+
+    document.addEventListener('keydown', function (e) {
+      if (videoModal.hidden) return;
+      if (e.key === 'Escape') closeVideoModal();
+      else if (e.key === 'ArrowLeft') loadVideo(videoCurrentIndex - 1);
+      else if (e.key === 'ArrowRight') loadVideo(videoCurrentIndex + 1);
+    });
+  }
+
   /* ---------- Scroll-in reveal ---------- */
   var revealEls = Array.prototype.slice.call(document.querySelectorAll('[data-mol-reveal]'));
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;

@@ -639,8 +639,12 @@ html.mol-js-reveal [data-mol-reveal].is-visible {
 }
 .mol-video-card {
   display: block;
+  width: 100%;
   color: inherit;
   text-decoration: none;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
   border-radius: var(--radius-card);
   overflow: hidden;
   background: var(--color-white);
@@ -1594,6 +1598,72 @@ html.mol-js-reveal [data-mol-reveal].is-visible {
 }
 .mol-popup__body { margin-bottom: var(--space-6); }
 .mol-popup__fine { font-size: 13px; opacity: 0.65; margin-top: var(--space-4); line-height: 1.5; }
+
+/* ---------- Video lightbox ---------- */
+.mol-video-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+.mol-video-modal[hidden] { display: none; }
+.mol-video-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 67, 93, 0.85);
+}
+.mol-video-modal__panel {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+}
+.mol-video-modal__close {
+  position: absolute;
+  top: -44px;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-white);
+  color: var(--color-fg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.mol-video-modal__frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+.mol-video-modal__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
+.mol-video-modal__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-white);
+  color: var(--color-fg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition-fast);
+}
+.mol-video-modal__arrow:hover { background: var(--color-secondary); color: var(--color-white); }
+.mol-video-modal__arrow--prev { left: -22px; }
+.mol-video-modal__arrow--next { right: -22px; }
+@media (max-width: 640px) {
+  .mol-video-modal__arrow--prev { left: 4px; }
+  .mol-video-modal__arrow--next { right: 4px; }
+}
 
 /* ---------- 404 ---------- */
 .mol-404 { text-align: center; }
