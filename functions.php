@@ -19,6 +19,7 @@ require get_template_directory() . '/inc/redirects.php';
 require get_template_directory() . '/inc/theme-setup-content.php';
 require get_template_directory() . '/inc/seo-data.php';
 require get_template_directory() . '/inc/seo-provision.php';
+require get_template_directory() . '/inc/site-icon.php';
 
 /**
  * Cache-bust every theme-owned asset off its real file mtime, so an edit here
