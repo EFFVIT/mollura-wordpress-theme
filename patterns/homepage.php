@@ -175,14 +175,14 @@ $img = get_template_directory_uri() . '/assets/images/';
 				<ul class="mol-results__benefits">
 					<li class="mol-results__benefit">
 						<span class="mol-icon-circle" aria-hidden="true">
-							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg>
 						</span>
 						<strong>Knowledgeable</strong>
 						<p>With years of experience, our team can help diagnose and treat your hair loss issues.</p>
 					</li>
 					<li class="mol-results__benefit">
 						<span class="mol-icon-circle" aria-hidden="true">
-							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5H3"/><path d="M12 19H3"/><path d="M14 3v4"/><path d="M16 17v4"/><path d="M21 12h-9"/><path d="M21 19h-5"/><path d="M21 5h-7"/><path d="M8 10v4"/><path d="M8 12H3"/></svg>
 						</span>
 						<strong>Bespoke Treatment</strong>
 						<p>Not all hair loss is the same. We create a customized treatment plan for each patient.</p>
@@ -320,14 +320,14 @@ $img = get_template_directory_uri() . '/assets/images/';
 				<ul class="mol-results__benefits">
 					<li class="mol-results__benefit">
 						<span class="mol-icon-circle" aria-hidden="true">
-							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
 						</span>
 						<strong>Natural-Looking Results</strong>
 						<p>We strive to make sure your hair growth and hairline design will have you looking your best.</p>
 					</li>
 					<li class="mol-results__benefit">
 						<span class="mol-icon-circle" aria-hidden="true">
-							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+							<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
 						</span>
 						<strong>Quick Recovery Time</strong>
 						<p>No one wants to spend weeks recovering. You&rsquo;ll be back at work and life in practically no time.</p>
