@@ -533,11 +533,35 @@ iframe:focus-visible {
 }
 .mol-case-card__media { aspect-ratio: 16 / 10; overflow: hidden; }
 .mol-case-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.mol-case-card__body { display: flex; flex-direction: column; flex: 1; padding: var(--space-6) var(--space-7) var(--space-7); }
+.mol-case-card__body { display: flex; flex-direction: column; flex: 1; padding: var(--space-6) var(--space-8) var(--space-8); }
 .mol-case-card .mol-eyebrow { margin-bottom: var(--space-3); }
 .mol-case-card h3 { font-size: 1.375rem; line-height: 1.3; margin-bottom: var(--space-3); }
 .mol-case-card p { margin-bottom: var(--space-5); }
 .mol-case-card__cta { margin-top: auto; align-self: flex-start; }
+
+/* Scroll-in reveal (case cards + reused wherever [data-mol-reveal] is added).
+   Hidden starting state is scoped under html.mol-js-reveal, a class JS adds
+   itself right before observing -- if the script never runs (blocked, errors
+   elsewhere, JS disabled), [data-mol-reveal] elements are never hidden and
+   just render normally instead of staying invisible forever. */
+html.mol-js-reveal [data-mol-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: mol-card-reveal var(--transition-slow) ease forwards;
+  animation-play-state: paused;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+html.mol-js-reveal [data-mol-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation-play-state: running;
+}
+@keyframes mol-card-reveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.mol-js-reveal [data-mol-reveal] { animation: none; opacity: 1; transform: none; }
+}
 
 /* ---------- Case study detail ---------- */
 .mol-case-stats {
