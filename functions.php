@@ -14,6 +14,9 @@ require get_template_directory() . '/inc/services-data.php';
 require get_template_directory() . '/inc/galleries-data.php';
 require get_template_directory() . '/inc/legal-data.php';
 require get_template_directory() . '/inc/locations-data.php';
+require get_template_directory() . '/inc/case-studies-data.php';
+require get_template_directory() . '/inc/redirects.php';
+require get_template_directory() . '/inc/theme-setup-content.php';
 
 /**
  * Cache-bust every theme-owned asset off its real file mtime, so an edit here
