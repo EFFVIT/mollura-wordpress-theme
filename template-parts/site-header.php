@@ -16,7 +16,7 @@ $mollura_office_locations = mollura_locations();
 				<?php $mollura_address = $location['address_line1'] . ', ' . $location['address_line2']; ?>
 				<a class="mol-topbar__location" href="<?php echo esc_url( 'https://www.google.com/maps/search/?api=1&query=' . rawurlencode( $mollura_address ) ); ?>" target="_blank" rel="noopener">
 					<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
-					<?php echo esc_html( $mollura_address ); ?>
+					<?php echo esc_html( $location['name'] . ', ' . $location['state'] . ' ' . $location['phone_display'] ); ?>
 				</a>
 			<?php endforeach; ?>
 		</div>

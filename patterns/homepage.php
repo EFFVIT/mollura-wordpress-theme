@@ -3,12 +3,14 @@
  * Homepage section markup, ported verbatim (content + structure) from the
  * approved static rebuild at mollura-homepage-static/index.html.
  *
- * Two known content gaps carried over as-is, NOT invented around here:
- *  1. 3 of 9 testimonial cards are explicit "Placeholder —" filler quotes with
- *     "Add Patient Name" — need real patient testimonials before launch.
- *  2. The $1,000-off popup offer's copy says "valid through Labor Day" /
+ * Known content gap carried over as-is, NOT invented around here:
+ *  1. The $1,000-off popup offer's copy says "valid through Labor Day" /
  *     "completed by September 7, 2026" — will be stale well before this site
  *     launches; needs a refreshed offer/date from the client before going live.
+ *
+ * The 5 fabricated placeholder testimonial cards that used to ship here were
+ * removed (see template-parts/testimonials.php) rather than filled in with
+ * invented patient names/quotes.
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -24,7 +26,7 @@ $img = get_template_directory_uri() . '/assets/images/';
 			<div class="mol-hero__overlay"></div>
 		</div>
 		<div class="mol-container mol-hero__content">
-			<img class="mol-hero__logo-mark" src="<?php echo esc_url( $img . 'hero-logo-mark.png' ); ?>" alt="Mollura Medical Hair Restoration" width="155" height="156">
+			<img class="mol-hero__logo-mark" src="<?php echo esc_url( $img . 'hero-logo-mark.png' ); ?>" alt="Mollura Medical Hair Restoration" width="155" height="120">
 			<h1 class="mol-hero__title">Start Restoring<br>Your Hair Today!</h1>
 			<p class="mol-hero__body">Mollura Medical Hair Restoration is one of Long Island&rsquo;s top clinics for surgical and non-surgical hair loss treatments including FUE, FUT, supplemental PRP, hair loss medications, and more. Our knowledgeable team will help you regain the hair you deserve.</p>
 			<a class="mol-btn mol-btn--primary" href="#book-consultation">Contact Us</a>
