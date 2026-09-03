@@ -1,8 +1,10 @@
 <?php
 /**
  * Testimonials wall, ported verbatim from the approved static rebuild.
- * Shared across pages -- see project memory for the known content gap
- * (3 of 9 cards are still explicit placeholders).
+ * Shared across pages. The 5 fabricated "Placeholder --" / "Add Patient
+ * Name" cards that shipped in the static rebuild were removed rather than
+ * filled in with invented content -- add real patient testimonials here
+ * when they're available.
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -32,23 +34,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> Dr. Mollura and his team made me feel comfortable from the very first consultation.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I was completely satisfied with my results. I appreciated the professionalism and efficiency of everyone in this office. I felt Dr Mullora put time and care into delivering the best results in a very safe way. I healed faster than I expected and I appreciate his experience in making good decisions. The technicians were fantastic, fast and thorough!! The facility was clean. I highly recommend!&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">MA</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">Michael A</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--long mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> From my first phone call to my last follow-up appointment, everyone on the Mollura team was patient, knowledgeable, and genuinely invested in my results. I did a lot of research before choosing a clinic and I'm so glad I picked Mollura &mdash; the whole experience exceeded my expectations.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I am rarely moved in a positive way that I feel compelled to go online and write a review- either positive or negative. However, I can't say enough great things about the experience I had at Mollura Medical. From the entire staff to Dr. Mollura, everyone was fantastic. Dr. Mollura was incredibly helpful in discussing my procedure and providing me with all of the information I needed to make a informed decision. His bedside manner is the best I have ever experienced - and his work is even better. His follow-up, I highly recommend him and his work.&rdquo;</p>
 							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">AW</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">A Woz.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Hi everybody I just wanted to leave a review about the awesome job Dr. Mollura did on my head. Yes hair transplants work. Service and price were on point and now I have a full head of hair. Thank you for your help.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">MW</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Matt W.</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
@@ -66,23 +80,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> Dr. Mollura and his team made me feel comfortable from the very first consultation.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I was completely satisfied with my results. I appreciated the professionalism and efficiency of everyone in this office. I felt Dr Mullora put time and care into delivering the best results in a very safe way. I healed faster than I expected and I appreciate his experience in making good decisions. The technicians were fantastic, fast and thorough!! The facility was clean. I highly recommend!&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">MA</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">Michael A</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--long mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> From my first phone call to my last follow-up appointment, everyone on the Mollura team was patient, knowledgeable, and genuinely invested in my results. I did a lot of research before choosing a clinic and I'm so glad I picked Mollura &mdash; the whole experience exceeded my expectations.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I am rarely moved in a positive way that I feel compelled to go online and write a review- either positive or negative. However, I can't say enough great things about the experience I had at Mollura Medical. From the entire staff to Dr. Mollura, everyone was fantastic. Dr. Mollura was incredibly helpful in discussing my procedure and providing me with all of the information I needed to make a informed decision. His bedside manner is the best I have ever experienced - and his work is even better. His follow-up, I highly recommend him and his work.&rdquo;</p>
 							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">AW</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">A Woz.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Hi everybody I just wanted to leave a review about the awesome job Dr. Mollura did on my head. Yes hair transplants work. Service and price were on point and now I have a full head of hair. Thank you for your help.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">MW</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Matt W.</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
@@ -106,16 +132,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> Natural-looking results and a team that actually listens. Couldn't be happier.</p>
-							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
-								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
-									<span class="mol-tcard__role">Mollura Patient</span>
-								</div>
-							</footer>
-						</blockquote>
 						<blockquote class="mol-tcard mol-tcard--long">
 							<p class="mol-tcard__quote">&ldquo;Dr. Mollura is a true pro. Had a transplant done two years ago and the work he did on my hairline was masterful. He was very communicative through the whole procedure and there for me after the procedure as well. Such a good job, people can't even tell I had anything done. Highly Recommend.&rdquo;</p>
 							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
@@ -123,6 +139,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<span class="mol-tcard__avatar">FL</span>
 								<div class="mol-tcard__who">
 									<cite class="mol-tcard__name">Frank L.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Dr Mollura and his staff were wonderful. He made me feel very comfortable on every visit to his office. I'm very impressed with his surgical skills, compassion, caring and professionalism. I feel fortunate to have met him. Thank you.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">AM</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Albert M.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I met Dr. Mollura 14 years ago. After researching many doctors, I determined that Dr. Mollura was the best. The surgery was a huge success- so I definitely made the right choice in doctors! It came out great! Last year, I decided to do a bit of a touch up, and was absolutely thrilled that Dr. Mollura was still in practice. The second surgery was also amazing. Dr. Mollura is the best hair restoration surgeon in the business. If you are looking to possibly have a hair restoration procedure done-you simply must give Dr. Mollura a call and make a consultation with him. He will explain the entire procedure with absolutely no pressure. He is truly an artist. He also is a board certified surgeon, at most places, they are just technicians. So like I said before, do yourself a favor and give the good doctor a call. You won't be disappointed.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">BB</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Bill B.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I just had a hair transplant procedure with Dr. Mollura and I honesty cant say enough about him, his staff and his magical hands. He is professional, caring and honest - and his staff is top notch! If you are thinking of doing it look no further than Mollura Hair Tranplant!&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">BS</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Barbie S.</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
@@ -140,16 +189,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> Natural-looking results and a team that actually listens. Couldn't be happier.</p>
-							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
-								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
-									<span class="mol-tcard__role">Mollura Patient</span>
-								</div>
-							</footer>
-						</blockquote>
 						<blockquote class="mol-tcard mol-tcard--long">
 							<p class="mol-tcard__quote">&ldquo;Dr. Mollura is a true pro. Had a transplant done two years ago and the work he did on my hairline was masterful. He was very communicative through the whole procedure and there for me after the procedure as well. Such a good job, people can't even tell I had anything done. Highly Recommend.&rdquo;</p>
 							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
@@ -157,6 +196,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<span class="mol-tcard__avatar">FL</span>
 								<div class="mol-tcard__who">
 									<cite class="mol-tcard__name">Frank L.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Dr Mollura and his staff were wonderful. He made me feel very comfortable on every visit to his office. I'm very impressed with his surgical skills, compassion, caring and professionalism. I feel fortunate to have met him. Thank you.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">AM</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Albert M.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I met Dr. Mollura 14 years ago. After researching many doctors, I determined that Dr. Mollura was the best. The surgery was a huge success- so I definitely made the right choice in doctors! It came out great! Last year, I decided to do a bit of a touch up, and was absolutely thrilled that Dr. Mollura was still in practice. The second surgery was also amazing. Dr. Mollura is the best hair restoration surgeon in the business. If you are looking to possibly have a hair restoration procedure done-you simply must give Dr. Mollura a call and make a consultation with him. He will explain the entire procedure with absolutely no pressure. He is truly an artist. He also is a board certified surgeon, at most places, they are just technicians. So like I said before, do yourself a favor and give the good doctor a call. You won't be disappointed.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">BB</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Bill B.</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;I just had a hair transplant procedure with Dr. Mollura and I honesty cant say enough about him, his staff and his magical hands. He is professional, caring and honest - and his staff is top notch! If you are thinking of doing it look no further than Mollura Hair Tranplant!&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">BS</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Barbie S.</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
@@ -180,23 +252,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> Professional, caring, and the results speak for themselves.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Dr. Mollura is a great doctor who explains the process thoroughly, and makes it his mission to give you the best treatment for your specific circumstance.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">DA</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">Daniel</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--long mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> I was nervous about surgery but Dr. Mollura walked me through every step and set realistic expectations. Recovery was easier than I thought and the results have been worth every bit of the wait.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Dr. Tony is the best hands down!! During consultation, he gave me a direct, honest and easy to understand breakdown of my hair issues and treatment options. No pressure to undertake any expensive procedure.....Just plain straightforward analysis. Honestly, after my consultation, I felt like working for Dr. Tony free of charge. I wanted to give him a hug like a big brother. Rarely these days do you come across a most caring and honest professional who genuinely cares about their client. I can't sing his praises enough. I highly recommend Dr. Tony Mollura!&rdquo;</p>
 							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">TO</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">Trish O</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;My journey to seek hair treatment was a long one, and I consulted with two other hair transplant companies before finally connecting with Dr. Mollura. From our first conversation, his friendly demeanor and honest approach made all the difference. He clearly explained what to expect, and it was evident that I was dealing with someone with a lifetime of expertise in his field.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" aria-expanded="false">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">AN</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Anonymous</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
@@ -214,23 +298,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> Professional, caring, and the results speak for themselves.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Dr. Mollura is a great doctor who explains the process thoroughly, and makes it his mission to give you the best treatment for your specific circumstance.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">DA</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">Daniel</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>
 						</blockquote>
-						<blockquote class="mol-tcard mol-tcard--long mol-tcard--placeholder">
-							<p class="mol-tcard__quote"><strong class="mol-tcard__flag">Placeholder &mdash;</strong> I was nervous about surgery but Dr. Mollura walked me through every step and set realistic expectations. Recovery was easier than I thought and the results have been worth every bit of the wait.</p>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;Dr. Tony is the best hands down!! During consultation, he gave me a direct, honest and easy to understand breakdown of my hair issues and treatment options. No pressure to undertake any expensive procedure.....Just plain straightforward analysis. Honestly, after my consultation, I felt like working for Dr. Tony free of charge. I wanted to give him a hug like a big brother. Rarely these days do you come across a most caring and honest professional who genuinely cares about their client. I can't sing his praises enough. I highly recommend Dr. Tony Mollura!&rdquo;</p>
 							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
 							<footer class="mol-tcard__meta">
-								<span class="mol-tcard__avatar">PH</span>
+								<span class="mol-tcard__avatar">TO</span>
 								<div class="mol-tcard__who">
-									<cite class="mol-tcard__name">Add Patient Name</cite>
+									<cite class="mol-tcard__name">Trish O</cite>
+									<span class="mol-tcard__role">Mollura Patient</span>
+								</div>
+							</footer>
+						</blockquote>
+						<blockquote class="mol-tcard mol-tcard--long">
+							<p class="mol-tcard__quote">&ldquo;My journey to seek hair treatment was a long one, and I consulted with two other hair transplant companies before finally connecting with Dr. Mollura. From our first conversation, his friendly demeanor and honest approach made all the difference. He clearly explained what to expect, and it was evident that I was dealing with someone with a lifetime of expertise in his field.&rdquo;</p>
+							<button type="button" class="mol-tcard__more" tabindex="-1" aria-hidden="true">Show more</button>
+							<footer class="mol-tcard__meta">
+								<span class="mol-tcard__avatar">AN</span>
+								<div class="mol-tcard__who">
+									<cite class="mol-tcard__name">Anonymous</cite>
 									<span class="mol-tcard__role">Mollura Patient</span>
 								</div>
 							</footer>

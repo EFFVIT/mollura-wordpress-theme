@@ -3,12 +3,14 @@
  * Homepage section markup, ported verbatim (content + structure) from the
  * approved static rebuild at mollura-homepage-static/index.html.
  *
- * Two known content gaps carried over as-is, NOT invented around here:
- *  1. 3 of 9 testimonial cards are explicit "Placeholder —" filler quotes with
- *     "Add Patient Name" — need real patient testimonials before launch.
- *  2. The $1,000-off popup offer's copy says "valid through Labor Day" /
+ * Known content gap carried over as-is, NOT invented around here:
+ *  1. The $1,000-off popup offer's copy says "valid through Labor Day" /
  *     "completed by September 7, 2026" — will be stale well before this site
  *     launches; needs a refreshed offer/date from the client before going live.
+ *
+ * The 5 fabricated placeholder testimonial cards that used to ship here were
+ * removed (see template-parts/testimonials.php) rather than filled in with
+ * invented patient names/quotes.
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
