@@ -124,9 +124,7 @@
       if (e.key === 'Escape' && !popup.hidden) closePopup();
     });
 
-    if (!sessionStorage.getItem(SESSION_KEY)) {
-      window.setTimeout(openPopup, 1500);
-    }
+    // Auto-open disabled: offer copy is stale (see patterns/homepage.php header note).
   }
 
   /* ---------- Video lightbox ---------- */
