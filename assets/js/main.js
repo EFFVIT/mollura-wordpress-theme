@@ -20,6 +20,16 @@
         navToggle.focus();
       }
     });
+
+    document.addEventListener('click', function (e) {
+      if (nav.classList.contains('is-open') &&
+          !nav.contains(e.target) &&
+          !navToggle.contains(e.target)) {
+        nav.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+    });
   }
 
   /* Mobile submenu carets (desktop relies on CSS :hover) */
